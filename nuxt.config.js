@@ -42,7 +42,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // Simple usage
-    '@nuxtjs/google-fonts',
+    // '@nuxtjs/google-fonts',
 
     // With options
     // ['@nuxtjs/google-fonts', { /* module options */ }]
@@ -52,7 +52,9 @@ export default {
   modules: [
        
     // style-resources to use variables in all the app
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/google-fonts'
+
 
 
   ],
