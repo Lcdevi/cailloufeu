@@ -24,6 +24,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    // charge un module Node.js directement (ici c'est un fichier SASS)
+    // 'bulma',
+    // fichier CSS dans notre projet
+    '~/assets/css/main.css',
+    // fichier SCSS dans notre projet
+    '~/assets/scss/main.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -35,11 +41,45 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    // Simple usage
+    '@nuxtjs/google-fonts',
+
+    // With options
+    // ['@nuxtjs/google-fonts', { /* module options */ }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+       
+    // style-resources to use variables in all the app
+    '@nuxtjs/style-resources'
+
+
   ],
+
+  styleResources: {
+    scss: ['./assets/scss/*.scss']
+  },
+
+  googleFonts: {
+    /* module options */
+    families: {
+      Roboto: true,
+      'Josefin+Sans': true,
+      Lato: [100, 300],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100]
+      },
+      Quattrocento: {
+        wght: [400]
+      },
+      Quicksand: {
+        wght: [400]
+      },
+      Philosopher: true,
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
