@@ -1,7 +1,7 @@
 <template>
   <!-- <Tutorial/> -->
   <div>
-    <h1>INDEX</h1>
+    <h1>INDEX 2</h1>
   </div>
 </template>
 
