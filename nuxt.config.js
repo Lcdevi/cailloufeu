@@ -76,6 +76,10 @@ export default {
       Quattrocento: {
         wght: [400]
       },
+      Rambla: {
+        wght: [400, 700],
+        ital: [400]
+      },
       Quicksand: {
         wght: [400]
       },

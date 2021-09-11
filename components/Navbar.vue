@@ -21,13 +21,14 @@
     </div>
     <div id="menu">
       <div id="categories">
-        l'atelier
-        cours
-        projets
-        shop
+        <p><NuxtLink to="/">L'atelier</NuxtLink></p>
+        <p><NuxtLink to="/projets">Projets</NuxtLink></p>
+        <p><NuxtLink to="/cours">Cours</NuxtLink></p>
+        <p><NuxtLink to="/contact">Contact</NuxtLink></p>
+        <p>Shop</p>
       </div>
       <div id="protocole-badaboum">
-        PROTOCOLE BadabOUm
+        <NuxtLink to="/protocole-badaboum">Protocole BadabOUm</NuxtLink>
       </div>
     </div>
   </div>
@@ -39,6 +40,10 @@
     border: 2px solid $frame;
     height: 255px;
     display: flex;
+    
+    & a:hover {
+      font-style: italic;
+    }
 
     & #logo {
       display: flex;
@@ -84,9 +89,9 @@
           font-size: 28px;
 
           & #pointilles {
-            height: 26px;
+            height: 27px;
             width: 100px;
-            border-bottom: 1px dashed $blue;
+            border-bottom: 1px dashed $frame;
             flex-grow: 1;
             margin: 0 5px;
           }
@@ -97,6 +102,22 @@
 
       & #menu {
         display: flex;
+        font-family: $text;
+        font-size: 28px;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+        margin: 0 20px 0 0;
+
+        & #categories {
+          display: flex;
+
+          & p {
+            margin: 20px;
+          }
+
+        }
+
       }
 
     }
