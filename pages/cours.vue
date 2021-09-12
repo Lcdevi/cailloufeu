@@ -7,6 +7,87 @@
           <h1>cours</h1>
         <div class="trait"></div>
       </div>
+
+
+      <div id="cours-content">
+<!-- *******************************************
+COURS GENERAL
+************************************************ -->
+        <div class="cours-div">
+          <img src="~/assets/img/cours/cours-laura-caillaux.jpg" alt="logo caillou feu laura caillaux">
+          <div class="cours-legende" id="cours-legende-general">
+            <p>
+              L'atelier Caillou FEU propose trois formules différentes :<br><br>
+              <span>Cours de reliure</span> pour découvrir, s’initier ou se perfectionner.<br><br>
+              <span>Stage</span> pour découvrir et maitriser 4 reliures différentes.<br><br>
+              <span>Workshop</span> pour prototyper, relier et éditer un projet personnel.
+            </p>
+          </div>
+        </div>
+<!-- *******************************************
+COURS - COURS
+************************************************ -->
+        <div class="cours-div">
+          <div class="cours-legende" id="cours-legende-wecandoo">
+              <h2>LES COURS DE RELIURE</h2><br>
+              Vous pouvez reserver votre cours avec WeCanDoo. 3 participants maximum.<br><br>
+              <span>Initiation</span> avec le duo de petits carnets.<br>
+              1h30 / 40€<br><br>
+              <span>Poussée</span> avec la reliure croisée, dos toilé, couverture rigide.<br>
+              3h / 79€<br><br>
+              <span>Traditionnelle</span> avec la reliure à la bradel.<br>
+              5h / 126€<br><br>
+              <a href="https://wecandoo.fr/atelier/paris-laura-duo-carnets" target="_blank" rel="noopener noreferrer">
+              <span>> reservation reliure initiation</span>
+              </a><br>
+              <a href="https://wecandoo.fr/atelier/paris-laura-grand-carnet" target="_blank" rel="noopener noreferrer">
+              <span>> reservation reliure poussée</span>
+              </a><br>
+              <a href="https://wecandoo.fr/atelier/paris-laura-reliure-bradel" target="_blank" rel="noopener noreferrer">
+              <span>> reservation reliure traditionnelle</span>
+              </a><br>
+          </div>
+          <img src="~/assets/img/cours/cours-laura-caillaux-stage.jpg" alt="logo caillou feu laura caillaux">
+        </div>
+<!-- *******************************************
+COURS - STAGE
+************************************************ -->
+        <div class="cours-div">
+          <img src="~/assets/img/cours/cours-laura-caillaux-workshop.jpg" alt="logo caillou feu laura caillaux">
+          <div class="cours-legende" id="cours-legende-stage">
+              <h2>STAGE DE RELIURE</h2><br>
+              Sur deux journées, l’occasion de découvrir, relier et maitrîser 5 types de reliures différentes.<br><br>
+              <ul>
+                <li>copte</li>
+                <li>bradel dos droit</li>
+                <li>leporello</li>
+                <li>couture croisée dos toilé</li>
+                <li>japonaise</li>
+              </ul>
+              <br>
+              tout le materiel est fourni<br>
+              2 journées / 16h / 280€<br><br>
+              <span>> formulaire inscription stage</span>
+          </div>
+        </div>
+<!-- *******************************************
+COURS - WORKSHOP
+************************************************ -->
+        <div class="cours-div">
+          <div class="cours-legende" id="cours-legende-workshop">
+            <h2>WORKSHOP EDITION D’ART</h2><br>
+            Pendant une à deux journées complêtes, et selon le projet préalablement étudié, vous éditerez votre édition d’art ou auto-édition.<br>
+            exemple : portfolio, leporello, boite pour photographies, chemise pour gravure, fanzine...<br>
+            2 participants maximum.<br>
+            Tous les matériaux fournis.
+            (sauf cuir ou autre matériau particulier)<br><br>
+            1 journée / 8h / 140€<br>
+            2 journées / 16h / 280€<br><br>
+            <span>> formulaire inscription workshop</span>
+          </div>
+          <img src="~/assets/img/cours/cours-laura-caillaux-workshop-hosni.jpg" alt="logo caillou feu laura caillaux">
+        </div>
+      </div>
     </div>
   <Footer />
 </div>
@@ -42,6 +123,60 @@
           background-color: $frame;
           margin: 10px;
         }
+      }
+
+      & #cours-content {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & img {
+          width: 600px;
+        }
+
+        & .cours-div {
+          // border: 1px solid green;
+          display: flex;
+          width: 80%;
+          margin: 0 0 157px 0;
+          align-items: center;
+          justify-content: center;
+
+          & .cours-legende {
+            z-index: 100000000;
+            border: 1px solid $frame;
+            padding: 45px;
+            font-family: $text;
+            background-color: white;
+
+            & span {
+             font-weight: 700;
+            }
+
+          }
+
+          & #cours-legende-general {
+            width: 414px;
+            margin-left: -80px;
+            font-size: 18px;
+          }
+
+          & #cours-legende-wecandoo {
+            width: 360px;
+            margin-right: -40px;
+            margin-bottom: -154px;
+          }
+          & #cours-legende-stage {
+            width: 380px;
+            margin: 1px 1px -106px -57px;
+          }
+          & #cours-legende-workshop {
+            width: 400px;
+            margin: 1px -108px -110px 1px;
+          }
+        }
+
       }
 
     }
