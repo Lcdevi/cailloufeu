@@ -81,7 +81,7 @@ export default {
         ital: [400]
       },
       Quicksand: {
-        wght: [400]
+        wght: [400, 300]
       },
       Philosopher: true,
     }

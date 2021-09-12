@@ -21,7 +21,7 @@
     </div>
     <div id="menu">
       <div id="categories">
-        <p><NuxtLink to="/">L'atelier</NuxtLink></p>
+        <p><NuxtLink to="/">L’atelier</NuxtLink></p>
         <p><NuxtLink to="/projets">Projets</NuxtLink></p>
         <p><NuxtLink to="/cours">Cours</NuxtLink></p>
         <p><NuxtLink to="/contact">Contact</NuxtLink></p>
@@ -87,6 +87,7 @@
           margin: 10px 20px 20px 20px;
           font-family: 'Quicksand', sans-serif;
           font-size: 28px;
+          font-weight: 300;
 
           & #pointilles {
             height: 27px;
