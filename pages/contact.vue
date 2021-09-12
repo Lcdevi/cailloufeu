@@ -7,6 +7,25 @@
           <h1>Contact</h1>
         <div class="trait"></div>
       </div>
+
+      <div id="contact-content">
+<!-- *******************************************
+PRESENTATION
+************************************************ -->
+        <div id="contact-pres">
+          <p>Vous avez un projet de reliure, édition d’art, auto-édition, fanzine, emboitage, cartonnage... ?<br>
+          Vous êtes interessé-e-s par les cours et souhaitez des informations complémentaires ?<br>
+          Vous souhaitez en savoir plus sur mon activité dessinée ?<br>
+          N’hesitez pas à m’écrire par mail</p>
+        </div>
+<!-- *******************************************
+EMAIL
+************************************************ -->
+<h2>bonjour@cailloufeu.com</h2>
+<!-- *******************************************
+FORMULAIRE
+************************************************ -->
+      </div>
     </div>
   <Footer />
 </div>
@@ -22,6 +41,27 @@
       border-bottom: 2px solid $frame;
       border-left: 2px solid $frame;
       padding-bottom: 100px;
+      font-family: $text;
+
+      & #contact-content {
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & #contact-pres {
+          border: 1px solid green;
+          width: 80%;
+          text-align: center;
+          margin: 0 0 40px 0;
+        }
+
+        & h2 {
+          font-size: 48px;
+          font-weight: 400;
+        }
+
+      }
 
       & #title {
         display: flex;
