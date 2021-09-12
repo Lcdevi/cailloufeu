@@ -3,7 +3,9 @@
     <Navbar />
     <div id="main-atelier">
       <div id="title">
-        <h1>L’atelier</h1>
+        <div class="trait"></div>
+          <h1>L’atelier</h1>
+        <div class="trait"></div>
       </div>
       <div id="informations">
         <div>
@@ -48,12 +50,19 @@ export default {}
       justify-content: center;
       height: 62px;
       margin: 72px 0;
+      align-items: center;
       & h1 {
         font-family: $text;
         color: $blue;
         font-size: 51px;
         font-weight: 400;
         text-transform: uppercase;
+      }
+      & .trait {
+        width: 62px;
+        height: 1px;
+        background-color: $frame;
+        margin: 10px;
       }
     }
 

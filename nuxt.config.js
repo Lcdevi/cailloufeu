@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'atelier caillou feu',
+    title: 'Atelier Caillou FEU',
     htmlAttrs: {
       lang: 'en'
     },
@@ -77,7 +77,7 @@ export default {
         wght: [400]
       },
       Rambla: {
-        wght: [400, 700],
+        wght: [300, 400, 700],
         ital: [400]
       },
       Quicksand: {

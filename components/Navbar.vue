@@ -86,13 +86,13 @@
           justify-content: space-between;
           margin: 10px 20px 20px 20px;
           font-family: 'Quicksand', sans-serif;
-          font-size: 28px;
+          font-size: 18px;
           font-weight: 300;
 
           & #pointilles {
-            height: 27px;
+            height: 18px;
             width: 100px;
-            border-bottom: 1px dashed $frame;
+            border-bottom: 1px dashed #605b8d;
             flex-grow: 1;
             margin: 0 5px;
           }
@@ -106,7 +106,7 @@
         font-family: $text;
         font-size: 28px;
         justify-content: space-between;
-        height: 80px;
+        height: 91px;
         align-items: center;
         margin: 0 20px 0 0;
 

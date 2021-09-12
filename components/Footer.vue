@@ -14,5 +14,9 @@
   font-size: 15px;
   padding: 20px;
 
+  & p {
+    text-align: center;
+    }
+
 }
 </style>
