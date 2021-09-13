@@ -25,6 +25,12 @@ EMAIL
 <!-- *******************************************
 FORMULAIRE
 ************************************************ -->
+        <div id="contact-pres">
+          <p>Ou utilisez ce formulaire de contact.<br>
+Je me ferais un plaisir de vous répondre au plus vite !</p>
+        </div>
+        <contact-form>
+        </contact-form>
       </div>
     </div>
   <Footer />
@@ -44,21 +50,22 @@ FORMULAIRE
       font-family: $text;
 
       & #contact-content {
-        border: 1px solid red;
+        // border: 1px solid red;
         display: flex;
         flex-direction: column;
         align-items: center;
 
         & #contact-pres {
-          border: 1px solid green;
+          // border: 1px solid green;
           width: 80%;
           text-align: center;
-          margin: 0 0 40px 0;
+          // margin: 0 0 40px 0;
         }
 
         & h2 {
           font-size: 48px;
           font-weight: 400;
+          margin: 40px 0;
         }
 
       }
