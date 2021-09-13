@@ -7,6 +7,24 @@
           <h1>protocole Badaboum</h1>
         <div class="trait"></div>
       </div>
+      <div id="protocole-content">
+        <div id="protocole-pres">
+          <p>Atelier de narration en bande dessinée<br>
+          pour les enfants du CE1 au CM2</p>
+        </div>
+        <div id="protocole-images">
+          <div>
+            <img src="~/assets/img/protocole/protocole-badaboum-02.jpg" alt="logo caillou feu laura caillaux" id="image01">
+          </div>
+          <div id="legende">
+            <p>L’atelier <span>Protocole BADABOUM</span> est une invitation à construire une histoire en bande dessinée, penser et réaliser sa couverture, puis finaliser sa création en reliant les pages et la couverture sous forme de livre broché.<br><br>
+            Animé par deux intervenants, Jonathan Daviau, auteur-illustrateur et Laura Caillaux, artisan relieuse et illustratrice.<br><br>
+            N’hesitez pas à nous contacter pour avoir plus d’informations !<br><br>
+            email: <span>protocolebadaboum@gmail.com</span>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   <Footer />
 </div>
@@ -22,6 +40,55 @@
       border-bottom: 2px solid $frame;
       border-left: 2px solid $frame;
       padding-bottom: 100px;
+
+      & #protocole-content {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: $text;
+
+        & img {
+          width: 350px;
+        }
+
+        & #protocole-pres {
+          margin: 50px 0 102px 0;
+          text-align: center;
+          font-size: 22px;
+          font-style: italic;
+        }
+
+        & #protocole-images {
+          // border: 1px solid green;
+          width: 70%;
+          display: flex;
+          flex-wrap: wrap;
+          // position: relative;
+          justify-content: center;
+
+          & #legende {
+            width: 400px;
+            border: solid 1px $frame;
+            background-color: white;
+            z-index: 100000;
+            padding: 40px;
+            // position: absolute;
+            top: 40px;
+            left: 309px;
+            margin-left: 20px;
+            height: 100%;
+            
+            
+            & span {
+              font-weight: 700;
+            }
+
+          }
+
+        }
+
+      }
 
       & #title {
         display: flex;
