@@ -53,7 +53,7 @@
         }
 
         & #protocole-pres {
-          margin: 50px 0 102px 0;
+          margin: 0px 0 102px 0;
           text-align: center;
           font-size: 22px;
           font-style: italic;
@@ -94,7 +94,7 @@
         display: flex;
         justify-content: center;
         height: 62px;
-        margin: 72px 0;
+        margin: 72px 0 120px 0;
         align-items: center;
         & h1 {
           font-family: $text;

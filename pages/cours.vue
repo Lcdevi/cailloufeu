@@ -67,8 +67,10 @@ COURS - STAGE
               <br>
               tout le materiel est fourni<br>
               2 journées / 16h / 280€<br><br>
-              <span>> formulaire inscription stage</span>
-          </div>
+            <NuxtLink to="/inscription">
+            <span>> formulaire inscription stage</span>
+            </NuxtLink>          
+            </div>
         </div>
 <!-- *******************************************
 COURS - WORKSHOP
@@ -82,7 +84,9 @@ COURS - WORKSHOP
             Tous les matériaux sont fournis.
             (sauf cuir ou autre matériau particulier)<br><br>
             2 journées / 16h / 280€<br><br>
+            <NuxtLink to="/inscription">
             <span>> formulaire inscription workshop</span>
+            </NuxtLink>
           </div>
           <img src="~/assets/img/cours/cours-laura-caillaux-workshop-hosni.jpg" alt="logo caillou feu laura caillaux">
         </div>
@@ -107,7 +111,7 @@ COURS - WORKSHOP
         display: flex;
         justify-content: center;
         height: 62px;
-        margin: 72px 0;
+        margin: 72px 0 120px 0;
         align-items: center;
         & h1 {
           font-family: $text;

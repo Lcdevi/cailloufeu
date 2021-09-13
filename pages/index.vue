@@ -49,7 +49,7 @@ export default {}
       display: flex;
       justify-content: center;
       height: 62px;
-      margin: 72px 0;
+      margin: 72px 0 120px 0;
       align-items: center;
       & h1 {
         font-family: $text;
