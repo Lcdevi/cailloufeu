@@ -98,6 +98,7 @@ import { mapState } from "vuex";
           & #italique {
             font-style: italic;
             font-size: 17px;
+            font-weight: 400;
           }
 
           & span {

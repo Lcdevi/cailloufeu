@@ -98,6 +98,7 @@ export default {
         display: flex;
         flex-wrap: wrap;
         width: 73vw;
+        margin-bottom: 120px;
       }
 
     }
