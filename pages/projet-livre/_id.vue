@@ -24,13 +24,13 @@
           <span>nombre d'exemplaire :</span> {{product.exemplaire}}<br>
           <span>prix :</span> {{product.prix}}
         </div>
-        <img id="main-image" :src="require(`~/assets/img/projets/livre/${product.photo1}.jpg`)" alt="mountains" />          
-        <img :src="require(`~/assets/img/projets/livre/${product.photo2}.jpg`)" alt="mountains" />
-        <img :src="require(`~/assets/img/projets/livre/${product.photo3}.jpg`)" alt="mountains" />
-        <img :src="require(`~/assets/img/projets/livre/${product.photo4}.jpg`)" alt="mountains" />
-        <img :src="require(`~/assets/img/projets/livre/${product.photo5}.jpg`)" alt="mountains" />
-        <img :src="require(`~/assets/img/projets/livre/${product.photo6}.jpg`)" alt="mountains" />
-        <img :src="require(`~/assets/img/projets/livre/${product.photo7}.jpg`)" alt="mountains" />
+        <img id="main-image" :src="require(`~/assets/img/projets/livre/${product.photo1}.jpg`)" :alt="`${product.alt}`" />       
+        <img :src="require(`~/assets/img/projets/livre/${product.photo2}.jpg`)" :alt="`${product.alt}`" />
+        <img :src="require(`~/assets/img/projets/livre/${product.photo3}.jpg`)" :alt="`${product.alt}`" />
+        <img :src="require(`~/assets/img/projets/livre/${product.photo4}.jpg`)" :alt="`${product.alt}`" />
+        <img :src="require(`~/assets/img/projets/livre/${product.photo5}.jpg`)" :alt="`${product.alt}`" />
+        <img :src="require(`~/assets/img/projets/livre/${product.photo6}.jpg`)" :alt="`${product.alt}`" />
+        <img :src="require(`~/assets/img/projets/livre/${product.photo7}.jpg`)" :alt="`${product.alt}`" />
       </div>
     </div>
     <Footer />

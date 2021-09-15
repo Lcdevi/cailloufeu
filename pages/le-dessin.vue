@@ -22,13 +22,13 @@ Ces villes là
 
           <div id="cesvillesla" class="projet-content">
             <div>
-              <img src="~/assets/img/dessin-cesvillesla01.jpg" alt="logo caillou feu laura caillaux" id="dessin1">
+              <img src="~/assets/img/dessin-cesvillesla01.jpg" alt="dessin laura caillaux ces villes là" id="dessin1">
             </div>
             <div>
-              <img src="~/assets/img/dessin-cesvillesla02.jpg" alt="logo caillou feu laura caillaux" id="dessin2">
+              <img src="~/assets/img/dessin-cesvillesla02.jpg" alt="dessin laura caillaux ces villes là" id="dessin2">
             </div>
             <div>
-              <img src="~/assets/img/dessin-cesvillesla03.jpg" alt="logo caillou feu laura caillaux" id="dessin3">
+              <img src="~/assets/img/dessin-cesvillesla03.jpg" alt="dessin laura caillaux ces villes là" id="dessin3">
             </div>
             <div id="legende-cesvilles" class="legendes">
               <h1>CES VILLES-LÀ</h1><br>
@@ -47,7 +47,7 @@ Ces villes là
               </p>  
             </div>
             <div>
-              <img src="~/assets/img/dessin-cesvillesla04.jpg" alt="logo caillou feu laura caillaux" id="dessin4">
+              <img src="~/assets/img/dessin-cesvillesla04.jpg" alt="dessin laura caillaux ces villes là" id="dessin4">
             </div>
           </div>
 
@@ -57,16 +57,16 @@ Le paysage changeur
 
           <div id="paysagechangeur" class="projet-content">
             <div>
-              <img src="~/assets/img/paysagechangeur02.jpg" alt="logo caillou feu laura caillaux" id="dessin1">
+              <img src="~/assets/img/paysagechangeur02.jpg" alt="dessin laura caillaux le paysage changeur" id="dessin1">
             </div>
             <div>
-              <img src="~/assets/img/paysagechangeur13.jpg" alt="logo caillou feu laura caillaux" id="dessin2">
+              <img src="~/assets/img/paysagechangeur13.jpg" alt="dessin laura caillaux le paysage changeur" id="dessin2">
             </div>
             <div>
-              <img src="~/assets/img/paysagechangeur34.jpg" alt="logo caillou feu laura caillaux" id="dessin3">
+              <img src="~/assets/img/paysagechangeur34.jpg" alt="dessin laura caillaux le paysage changeur" id="dessin3">
             </div>
             <div>
-              <img src="~/assets/img/paysagechangeur42.jpg" alt="logo caillou feu laura caillaux" id="dessin4">
+              <img src="~/assets/img/paysagechangeur42.jpg" alt="dessin laura caillaux le paysage changeur" id="dessin4">
             </div>
             <div id="legende-paysagechangeur" class="legendes">
               <h1>LE PAYSAGE CHANGEUR</h1><br>

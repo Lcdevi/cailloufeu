@@ -14,7 +14,7 @@
         </div>
         <div id="protocole-images">
           <div>
-            <img src="~/assets/img/protocole/protocole-badaboum-02.jpg" alt="logo caillou feu laura caillaux" id="image01">
+            <img src="~/assets/img/protocole/protocole-badaboum-02.jpg" alt="photo d'un atelier protocole badaboum" id="image01">
           </div>
           <div id="legende">
             <p>L’atelier <span>Protocole BADABOUM</span> est une invitation à construire une histoire en bande dessinée, penser et réaliser sa couverture, puis finaliser sa création en reliant les pages et la couverture sous forme de livre broché.<br><br>

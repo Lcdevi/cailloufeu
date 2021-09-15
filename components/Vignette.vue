@@ -5,7 +5,7 @@
     @mouseleave="hover = false"
   >
   <NuxtLink :to="`/projet-livre/${project.id}`">
-    <img :src="require(`~/assets/img/projets/livre/${project.vignette}.jpg`)" alt="mountains" />
+    <img :src="require(`~/assets/img/projets/livre/${project.vignette}.jpg`)" alt="image reliure livre laura caillaux caillou feu" />
   </NuxtLink>
   
     <div v-if="hover" id="legende">

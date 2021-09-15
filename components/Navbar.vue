@@ -11,7 +11,7 @@
         <h1>CAILLOU FEU</h1>
         <a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">
           <div id="social">
-            <img src="~/assets/img/instagram-brands.svg" alt="">
+            <img src="~/assets/img/instagram-brands.svg" alt="logo instagram">
             <h3>instagram</h3>
           </div>
         </a>

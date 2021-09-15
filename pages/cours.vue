@@ -14,7 +14,7 @@
 COURS GENERAL
 ************************************************ -->
         <div class="cours-div">
-          <img src="~/assets/img/cours/cours-laura-caillaux.jpg" alt="logo caillou feu laura caillaux">
+          <img src="~/assets/img/cours/cours-laura-caillaux.jpg" alt="cours reliure atelier caillou feu laura caillaux">
           <div class="cours-legende" id="cours-legende-general">
             <p>
               L'atelier Caillou FEU propose trois formules différentes :<br><br>
@@ -47,13 +47,13 @@ COURS - COURS
               <span>> reservation reliure traditionnelle</span>
               </a><br>
           </div>
-          <img src="~/assets/img/cours/cours-laura-caillaux-stage.jpg" alt="logo caillou feu laura caillaux">
+          <img src="~/assets/img/cours/cours-laura-caillaux-stage.jpg" alt="cours reliure atelier caillou feu laura caillaux">
         </div>
 <!-- *******************************************
 COURS - STAGE
 ************************************************ -->
         <div class="cours-div">
-          <img src="~/assets/img/cours/cours-laura-caillaux-workshop.jpg" alt="logo caillou feu laura caillaux">
+          <img src="~/assets/img/cours/cours-laura-caillaux-workshop.jpg" alt="stage reliure atelier caillou feu laura caillaux">
           <div class="cours-legende" id="cours-legende-stage">
               <h2>STAGE DE RELIURE</h2><br>
               Sur deux journées, l’occasion de découvrir, relier et maîtriser 5 types de reliures différentes.<br><br>
@@ -88,7 +88,7 @@ COURS - WORKSHOP
             <span>> formulaire inscription workshop</span>
             </NuxtLink>
           </div>
-          <img src="~/assets/img/cours/cours-laura-caillaux-workshop-hosni.jpg" alt="logo caillou feu laura caillaux">
+          <img src="~/assets/img/cours/cours-laura-caillaux-workshop-hosni.jpg" alt="workshop reliure atelier caillou feu laura caillaux">
         </div>
       </div>
     </div>
