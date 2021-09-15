@@ -38,7 +38,7 @@ Ces villes là
                 2014-2015<br>
               </p><br>
               <p>
-                Ces dessins ont été réalisés entre Paris et Bangkok. Ils représentent ce qui me restait de Paris à Bangkok, et vice versa.  Là bas comme ici, j’essayais de fixer le souvenir sur le papier, laissant une empreinte dense, noire, minérale, toujours au crayon, mais à la manière de la gravure, enlevant de la matière pour laisser le trait et le plein apparaître.
+                Ces dessins ont été réalisés entre Paris et Bangkok. Ils représentent ce qui me restait des paysages français à Bangkok, et vice versa.  Là bas comme ici, j’essayais de fixer le souvenir sur le papier.
               </p><br>
               <p class="lien-dessin">
                 <a href="http://lauracaillaux.fr/creationartistique/portfolio/ces-villes-la/" target="_blank" rel="noopener noreferrer">
@@ -76,7 +76,18 @@ Le paysage changeur
                 2015<br>
               </p><br>
               <p>
-                Ces dessins ont été réalisés entre Paris et Bangkok. Ils représentent ce qui me restait de Paris à Bangkok, et vice versa.  Là bas comme ici, j’essayais de fixer le souvenir sur le papier, laissant une empreinte dense, noire, minérale, toujours au crayon, mais à la manière de la gravure, enlevant de la matière pour laisser le trait et le plein apparaître.
+                « le paysage éclipse /
+le paysage prison /
+le paysage sans air sans lumière sans rires ni saisons /
+le paysage glacé des cités ouvrières glacées en plein été comme au cœur de l'hiver /
+le paysage éteint /
+le paysage sans rien /
+le paysage exploité affamé dévoré escamoté /
+le paysage charbon /
+le paysage poussière /
+le paysage cambouis /
+le paysage mâchefer /
+le paysage châtré gommé effacé relégué et rejeté dans l'ombre » J. Prévert
               </p><br> 
               <p class="lien-dessin">
                 <a href="http://lauracaillaux.fr/creationartistique/portfolio/le-paysage-changeur/" target="_blank" rel="noopener noreferrer">
@@ -106,6 +117,7 @@ Les hommes masqués
       border-bottom: 2px solid $frame;
       border-left: 2px solid $frame;
       padding-bottom: 100px;
+      align-items: center;
 
       & #fil-ariane {
         // border: 1px solid green;

@@ -12,11 +12,11 @@
         <p>Vous pouvez remplir ce formulaire pour être prévenu-e des prochaines sessions.</p>
       </div>
         <div id="inscription-formulaire">
-          <form class="inscription-form">
+          <form class="inscription-form" @submit.prevent="sendEmail">
             <label>nom / prénom</label>
-            <input class="input" type="text" name="user_name">
+            <input class="input" type="text" name="name">
             <label>adresse email</label>
-            <input class="input" type="email" name="user_email">
+            <input class="input" type="email" name="email">
             <label>Je suis interessé-e par</label>
             <div>
               <input type="checkbox" id="stage" name="stage">
@@ -40,7 +40,26 @@
 </template>
 
 <script>
-export default {}
+import emailjs from 'emailjs-com';
+
+export default {
+  mounted() {
+    // console.log(process.env.YOUR_SERVICE_ID)
+  },
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID_INSCRIPTION, e.target, process.env.YOUR_USER_ID)
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+            alert("message envoyé")
+        }, (error) => {
+            console.log('FAILED...', error);
+            alert("ATTENTION votre message n'a pas pu être envoyé")
+        });
+        e.target.reset();
+    }
+  }
+}
 </script>
 
 

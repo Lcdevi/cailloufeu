@@ -21,7 +21,8 @@
           <span>impression :</span> {{product.impression}} <br>
           <span>nb de pages :</span> {{product.pages}} <br>
           <span>date :</span> {{product.date}} <br>
-          <span>nombre d'exemplaire :</span> {{product.exemplaire}}
+          <span>nombre d'exemplaire :</span> {{product.exemplaire}}<br>
+          <span>prix :</span> {{product.prix}}
         </div>
         <img id="main-image" :src="require(`~/assets/img/projets/livre/${product.photo1}.jpg`)" alt="mountains" />          
         <img :src="require(`~/assets/img/projets/livre/${product.photo2}.jpg`)" alt="mountains" />

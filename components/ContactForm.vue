@@ -1,12 +1,12 @@
 <template>
   <div class="contactform-container">
-    <form class="contact-form">
+    <form class="contact-form" @submit.prevent="sendEmail">
       <label>nom</label>
-      <input class="input" type="text" name="user_name">
+      <input class="input" type="text" name="name">
       <label>adresse email</label>
-      <input class="input" type="email" name="user_email">
+      <input class="input" type="email" name="email">
       <label>sujet</label>
-      <input class="input" type="text" name="user-subject">
+      <input class="input" type="text" name="subject">
       <label>message</label>
       <textarea name="message"></textarea>
       <!-- <input type="submit" value="Envoyer"> -->
@@ -14,28 +14,37 @@
         <button type="submit" value="Send">envoyer</button>
       </div>
     </form>
+    <p v-if="validate" id="validatemessage">Votre message a bien été envoyé, merci !</p>  
   </div>
 </template>
 
 <script>
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
-// export default {
-//     mounted() {
-//     console.log('this project 1', process.env.TEST_TEST)    
-//   },
+export default {
+  mounted() {
+    // console.log(process.env.YOUR_SERVICE_ID)
+  },
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, e.target, process.env.YOUR_USER_ID)
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+            alert("message envoyé")
+        }, (error) => {
+            console.log('FAILED...', error);
+            alert("ATTENTION votre message n'a pas pu être envoyé")
+        });
+        e.target.reset();
+    }
+  },
 
-//   methods: {
-//     sendEmail: (e) => {
-//       emailjs.sendForm('service_owxtdwe', 'template_g4x6lr1', e.target, 'user_NaM1stgXQWebtXCjHYdox')
-//         .then((result) => {
-//             console.log('SUCCESS!', result.status, result.text);
-//         }, (error) => {
-//             console.log('FAILED...', error);
-//         });
-//     }
-//   }
-// }
+  data() {
+    return {
+      validate: false
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -80,6 +89,11 @@
           background-color: $frame;
         }
       }
+    }
+    & #validatemessage {
+      // display: none;
+      color: rgb(27, 138, 99);
+      font-weight: 700;
     }
   }
 </style>

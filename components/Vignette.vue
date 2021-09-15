@@ -13,6 +13,7 @@
       <span id="italic">{{project.categorie}}</span> <br>
       {{project.auteur}}<br>
       {{project.date}}<br>
+      <br>
       <NuxtLink :to="`/projet-livre/${project.id}`">
         <span class="bold">Voir plus</span>
       </NuxtLink>
