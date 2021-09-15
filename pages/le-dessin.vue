@@ -9,6 +9,11 @@
             le dessin
           </p>
         </div>
+        <div id="title">
+          <div class="trait"></div>
+            <h1>LE DESSIN</h1>
+          <div class="trait"></div>
+        </div>
         <div id="content-dessin">
 
 <!-- *******************************************
@@ -36,7 +41,9 @@ Ces villes là
                 Ces dessins ont été réalisés entre Paris et Bangkok. Ils représentent ce qui me restait de Paris à Bangkok, et vice versa.  Là bas comme ici, j’essayais de fixer le souvenir sur le papier, laissant une empreinte dense, noire, minérale, toujours au crayon, mais à la manière de la gravure, enlevant de la matière pour laisser le trait et le plein apparaître.
               </p><br>
               <p class="lien-dessin">
-                > voir plus  
+                <a href="http://lauracaillaux.fr/creationartistique/portfolio/ces-villes-la/" target="_blank" rel="noopener noreferrer">
+                  > voir plus  
+                </a>
               </p>  
             </div>
             <div>
@@ -72,8 +79,9 @@ Le paysage changeur
                 Ces dessins ont été réalisés entre Paris et Bangkok. Ils représentent ce qui me restait de Paris à Bangkok, et vice versa.  Là bas comme ici, j’essayais de fixer le souvenir sur le papier, laissant une empreinte dense, noire, minérale, toujours au crayon, mais à la manière de la gravure, enlevant de la matière pour laisser le trait et le plein apparaître.
               </p><br> 
               <p class="lien-dessin">
-                > voir plus  
-              </p>  
+                <a href="http://lauracaillaux.fr/creationartistique/portfolio/le-paysage-changeur/" target="_blank" rel="noopener noreferrer">
+                  > voir plus  
+                </a>              </p>  
             </div>
           </div>
 
@@ -105,6 +113,27 @@ Les hommes masqués
         font-family: $text;
         font-size: 18px;
         margin: 30px;
+      }
+
+      & #title {
+        display: flex;
+        justify-content: center;
+        height: 62px;
+        margin: 0px 0px 40px 0;
+        align-items: center;
+        & h1 {
+          font-family: $text;
+          color: $blue;
+          font-size: 51px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+        & .trait {
+          width: 62px;
+          height: 1px;
+          background-color: $frame;
+          margin: 10px;
+        }
       }
 
       & #content-dessin {

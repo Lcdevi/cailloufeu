@@ -1,0 +1,81 @@
+[
+  {
+      "id": "1",
+      "photocouv": "~/assets/img/projets/livre/livre-lescailloux-jojo-01",
+      "vignette": "livre-lescailloux-jojo-01",
+      "categorie": "papeterie",
+      "auteur": "collaboration : Jonathan Daviau",
+      "title": "les petits cailloux illustrés",
+      "description": "carnet d'écriture et de dessin",
+      "pages": "120",
+      "format": "12 x 16,5 cm",
+      "reliure": "couture croisée / dos toilé / couverture rigide carton noir teinté dans la masse",
+      "date": "2021"
+    },
+    {
+      "id": "1",
+      "photocouv": "~/assets/img/projets/livre/livre-lescailloux-jojo-01",
+      "vignette": "livre-lescailloux-jojo-02",
+      "categorie": "papeterie",
+      "auteur": "collaboration : Jonathan Daviau",
+      "title": "les petits cailloux illustrés",
+      "description": "carnet d'écriture et de dessin",
+      "pages": "120",
+      "format": "12 x 16,5 cm",
+      "reliure": "couture croisée / dos toilé / couverture rigide carton noir teinté dans la masse",
+      "date": "2021"
+    },
+    {
+      "id": "1",
+      "photocouv": "~/assets/img/projets/livre/livre-lescailloux-jojo-01",
+      "vignette": "livre-lescailloux-jojo-03",
+      "categorie": "papeterie",
+      "auteur": "collaboration : Jonathan Daviau",
+      "title": "les petits cailloux illustrés",
+      "description": "carnet d'écriture et de dessin",
+      "pages": "120",
+      "format": "12 x 16,5 cm",
+      "reliure": "couture croisée / dos toilé / couverture rigide carton noir teinté dans la masse",
+      "date": "2021"
+    },
+    {
+      "id": "1",
+      "photocouv": "~/assets/img/projets/livre/livre-lescailloux-jojo-01",
+      "vignette": "livre-lescailloux-souple-01",
+      "categorie": "papeterie",
+      "auteur": "-",
+      "title": "les cailloux souples",
+      "description": "carnet d'écriture et de dessin",
+      "pages": "120",
+      "format": "12 x 16,5 cm",
+      "reliure": "couture croisée / dos toilé / couverture rigide carton noir teinté dans la masse",
+      "date": "2021"
+    },
+    {
+      "id": "1",
+      "photocouv": "~/assets/img/projets/livre/livre-lescailloux-jojo-01",
+      "vignette": "livre-lespetitscailloux-01",
+      "categorie": "papeterie",
+      "auteur": "-",
+      "title": "les petits cailloux",
+      "description": "carnet d'écriture et de dessin",
+      "pages": "120",
+      "format": "12 x 16,5 cm",
+      "reliure": "couture croisée / dos toilé / couverture rigide carton noir teinté dans la masse",
+      "date": "2021"
+    },
+    {
+      "id": "1",
+      "photocouv": "~/assets/img/projets/livre/livre-lescailloux-jojo-01",
+      "vignette": "livre-unejourneesansfin-01",
+      "categorie": "édition",
+      "auteur": "Laura Caillaux & Matéo Palévody",
+      "title": "Une journée sans fin",
+      "description": "carnet d'écriture et de dessin",
+      "pages": "120",
+      "format": "12 x 16,5 cm",
+      "reliure": "couture croisée / dos toilé / couverture rigide carton noir teinté dans la masse",
+      "date": "2021"
+    }
+
+]
