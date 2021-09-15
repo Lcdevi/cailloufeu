@@ -4,8 +4,9 @@
     @mouseover="hover = true"
     @mouseleave="hover = false"
   >
+  <NuxtLink :to="`/projet-livre/${project.id}`">
     <img :src="require(`~/assets/img/projets/livre/${project.vignette}.jpg`)" alt="mountains" />
-    <!-- <div v-if="hover" id="legende">{{project.title}}</div> -->
+  </NuxtLink>
     <div v-if="hover" id="legende">
       <span id="bold">{{project.title}}</span> <br>
       <span id="italic">{{project.categorie}}</span> <br>

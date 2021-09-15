@@ -1,4 +1,17 @@
+import data from './data/livres.json'
+
+let dynamicRoutes = () => {
+  return new Promise(resolve => {
+    resolve(data.map(el => `le-livre/${el.id}`))
+  })
+}
+
+
 export default {
+  generate: {
+    routes: dynamicRoutes
+  },
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 

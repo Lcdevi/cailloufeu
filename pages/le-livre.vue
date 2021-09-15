@@ -61,6 +61,8 @@ export default {
       border-left: 2px solid $frame;
       padding-bottom: 100px;
       align-items: center;
+      padding: 0 11vw;
+      
       
       & #fil-ariane {
         // border: 1px solid green;
@@ -93,11 +95,9 @@ export default {
 
       #vignettes {
         // border: 1px solid blue;
-        width: 90%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-
+        width: 73vw;
       }
 
     }
