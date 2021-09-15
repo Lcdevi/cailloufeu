@@ -7,7 +7,15 @@
 
   <div id="navinfo">
     <div id="title">
-      <h1>CAILLOU FEU</h1>
+      <div id="h1social">
+        <h1>CAILLOU FEU</h1>
+        <a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">
+          <div id="social">
+            <img src="~/assets/img/instagram-brands.svg" alt="">
+            <h3>instagram</h3>
+          </div>
+        </a>
+      </div>
       <div id="description">
         <div>
           <p>Drawing / Publishing / Bookbinding</p>
@@ -67,11 +75,35 @@
 
       & #title {
 
-        & h1 {
-          font-size: 77px;
-          font-weight: 400;
-          letter-spacing: 9px;
-          margin: 20px 0 10px 20px;
+        & #h1social {
+          // border: 1px solid red;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          & h1 {
+            font-size: 77px;
+            font-weight: 400;
+            letter-spacing: 9px;
+            margin: 20px 0 10px 20px;
+          }
+
+          & #social {
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            margin-bottom: -17px;
+            flex-direction: column;
+            h3 {
+              font-family: 'Quicksand', sans-serif;
+              font-size: 14px;
+              font-weight: 700; 
+            }
+            img {
+              width: 25px;
+              color: $blue;
+            }
+          }
         }
 
         & #trait2 {
