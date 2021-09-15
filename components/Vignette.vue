@@ -7,11 +7,15 @@
   <NuxtLink :to="`/projet-livre/${project.id}`">
     <img :src="require(`~/assets/img/projets/livre/${project.vignette}.jpg`)" alt="mountains" />
   </NuxtLink>
+  
     <div v-if="hover" id="legende">
-      <span id="bold">{{project.title}}</span> <br>
+      <span class="bold">{{project.title}}</span> <br>
       <span id="italic">{{project.categorie}}</span> <br>
       {{project.auteur}}<br>
-      {{project.date}}
+      {{project.date}}<br>
+      <NuxtLink :to="`/projet-livre/${project.id}`">
+        <span class="bold">Voir plus</span>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -64,7 +68,7 @@ import projectData from "~/data/livres.json";
       font-style: italic;
     }
 
-    & #bold {
+    & .bold {
       font-weight: 700;
     }
 
