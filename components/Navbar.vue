@@ -1,7 +1,7 @@
 <template>
 <div id="navbar">
   <div id="logo">
-    <img src="~/assets/img/logo-cailloufeu.JPG" alt="logo caillou feu laura caillaux">
+    <img src="~/assets/img/logo-cailloufeu-silex.JPG" alt="logo caillou feu laura caillaux">
     <div id="trait"></div>
   </div>
 

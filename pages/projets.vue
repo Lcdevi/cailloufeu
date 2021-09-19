@@ -16,7 +16,7 @@
         </div>
         <div>
           <NuxtLink to="/le-dessin">
-          <img src="~/assets/img/logo-cailloufeu.JPG" alt="dessin silex pour rubrique le dessin">
+          <img src="~/assets/img/projets/dessin/caillou-feu-ledessin.jpg" alt="dessin silex pour rubrique le dessin">
           <p>le dessin</p>
           </NuxtLink>
         </div>
