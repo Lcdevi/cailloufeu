@@ -33,7 +33,7 @@
         <p><NuxtLink to="/projets">Projets</NuxtLink></p>
         <p><NuxtLink to="/cours">Cours</NuxtLink></p>
         <p><NuxtLink to="/contact">Contact</NuxtLink></p>
-        <p>Shop</p>
+        <p><NuxtLink to="/shop">Shop</NuxtLink></p>
       </div>
       <div id="protocole-badaboum">
         <NuxtLink to="/protocole-badaboum">Protocole BadabOUm</NuxtLink>

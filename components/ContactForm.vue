@@ -15,6 +15,7 @@
       </div>
     </form>
     <p v-if="validate" id="validatemessage">Votre message a bien été envoyé, merci !</p>  
+    <Adress />
   </div>
 </template>
 

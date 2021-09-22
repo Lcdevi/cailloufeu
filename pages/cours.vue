@@ -91,7 +91,9 @@ COURS - WORKSHOP
           <img src="~/assets/img/cours/cours-laura-caillaux-workshop-hosni.jpg" alt="workshop reliure atelier caillou feu laura caillaux">
         </div>
       </div>
+    <Adress />
     </div>
+  <Newsletter />
   <Footer />
 </div>
 </template>

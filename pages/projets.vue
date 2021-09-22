@@ -10,18 +10,19 @@
       <div id="content-projects">
         <div>
           <NuxtLink to="/le-livre">
-            <img src="~/assets/img/logo-cailloufeu.JPG" alt="dessin silex pour le rubrique le livre">
+            <img src="~/assets/img/projets/silex_plume-ledessin.jpg" alt="dessin silex pour le rubrique le livre">
             <p>le livre</p>
           </NuxtLink>
         </div>
         <div>
           <NuxtLink to="/le-dessin">
-          <img src="~/assets/img/projets/dessin/caillou-feu-ledessin.jpg" alt="dessin silex pour rubrique le dessin">
+          <img src="~/assets/img/projets/silex_plume-lelivre.jpg" alt="dessin silex pour rubrique le dessin">
           <p>le dessin</p>
           </NuxtLink>
         </div>
       </div>
     </div>
+  <Newsletter />
   <Footer />
 </div>
 </template>

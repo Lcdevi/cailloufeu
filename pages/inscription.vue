@@ -8,7 +8,7 @@
         <div class="trait"></div>
       </div>
       <div id="inscription-pres">
-        <p>Il n'y a pas de session prévue pour l'instant mais les dates vont bientôt arriver.</p><br>
+        <p>Il n'y a pas de session prévue pour l'instant !</p><br>
         <p>Vous pouvez remplir ce formulaire pour être prévenu-e des prochaines sessions.</p>
       </div>
         <div id="inscription-formulaire">
@@ -34,7 +34,9 @@
             </div>
           </form>
         </div>
+        <Adress />
     </div>
+    <Newsletter />
     <Footer />
   </div>
 </template>

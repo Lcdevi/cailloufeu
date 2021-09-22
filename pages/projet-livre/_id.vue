@@ -14,15 +14,15 @@
         <div id="legende">
           <h1>{{product.title}}</h1><br>
           <span id="italique">{{product.categorie}}</span><br><br>
-          <span>auteur :</span> {{product.auteur}} <br>
-          <span>description :</span> {{product.description}} <br>
-          <span>reliure :</span> {{product.reliure}} <br>
-          <span>format :</span> {{product.format}} <br>
-          <span>impression :</span> {{product.impression}} <br>
-          <span>nb de pages :</span> {{product.pages}} <br>
-          <span>date :</span> {{product.date}} <br>
-          <span>nombre d'exemplaire :</span> {{product.exemplaire}}<br>
-          <span>prix :</span> {{product.prix}}
+          <span>auteur →</span> {{product.auteur}} <br>
+          <span>description →</span> {{product.description}} <br>
+          <span>reliure →</span> {{product.reliure}} <br>
+          <span>format →</span> {{product.format}} <br>
+          <span>impression →</span> {{product.impression}} <br>
+          <span>nb de pages →</span> {{product.pages}} <br>
+          <span>date →</span> {{product.date}} <br>
+          <span>nombre d'exemplaire →</span> {{product.exemplaire}}<br>
+          <span>prix →</span> {{product.prix}}
         </div>
         <img id="main-image" :src="require(`~/assets/img/projets/livre/${product.photo1}.jpg`)" :alt="`${product.alt}`" />       
         <img :src="require(`~/assets/img/projets/livre/${product.photo2}.jpg`)" :alt="`${product.alt}`" />

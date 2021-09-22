@@ -103,6 +103,7 @@ Les hommes masqués
 
         </div>
       </div>
+    <Newsletter />
     <Footer />
   </div>
 </template>
