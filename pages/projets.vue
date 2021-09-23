@@ -90,4 +90,60 @@
 
     }
   }
+
+///////////// IPAD 975 PX /////////////////////
+
+@media (max-width: 975px) {
+  #projets {
+    #main-projets {
+      & #title {
+        & h1 {       
+        }
+        & .trait {
+        }
+      }
+      & #content-projects {
+        & div {
+          margin: 0 10px;
+        }
+        & img {
+          width: 40vw;
+          margin: 0;
+        }
+        & p {
+        }
+      }
+    }
+  }
+}
+
+
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+  #projets {
+    #main-projets {
+      border: none;
+      & #title {
+        margin-bottom: 70px;
+        & h1 {       
+        }
+        & .trait {
+        }
+      }
+      & #content-projects {
+        flex-direction: column;
+        margin: 0;
+        & div {
+          align-items: center;
+          margin: 20px 0;
+        }
+        & img {
+        }
+        & p {
+        }
+      }
+    }
+  }
+}
 </style>

@@ -21,6 +21,22 @@ Ces villes là
 ************************************************ -->
 
           <div id="cesvillesla" class="projet-content">
+            <div id="legende-cesvilles-smartphone" class="legendes-smartphone">
+              <h1>CES VILLES-LÀ</h1><br>
+              <p class="legendes-infos-smartphone">
+                encre de chine, fusain, craie et pierre noire<br>
+                56 x 75 cm<br>
+                2014-2015<br>
+              </p><br>
+              <p>
+                Ces dessins ont été réalisés entre Paris et Bangkok. Ils représentent ce qui me restait des paysages français à Bangkok, et vice versa.  Là bas comme ici, j’essayais de fixer le souvenir sur le papier.
+              </p><br>
+              <p class="lien-dessin-smartphone">
+                <a href="http://lauracaillaux.fr/creationartistique/portfolio/ces-villes-la/" target="_blank" rel="noopener noreferrer">
+                  > voir plus  
+                </a>
+              </p>  
+            </div>
             <div>
               <img src="~/assets/img/dessin-cesvillesla01.jpg" alt="dessin laura caillaux ces villes là" id="dessin1">
             </div>
@@ -56,6 +72,33 @@ Le paysage changeur
 ************************************************ -->
 
           <div id="paysagechangeur" class="projet-content">
+            <div id="legende-cesvilles-smartphone" class="legendes-smartphone">
+               <h1>LE PAYSAGE CHANGEUR</h1><br>
+              <p class="legendes-infos">
+                encre de chine<br>
+                dimensions variables – environ 12 x 16 cm<br>
+                2015<br>
+              </p><br>
+              <p>
+                « le paysage éclipse /
+le paysage prison /
+le paysage sans air sans lumière sans rires ni saisons /
+le paysage glacé des cités ouvrières glacées en plein été comme au cœur de l'hiver /
+le paysage éteint /
+le paysage sans rien /
+le paysage exploité affamé dévoré escamoté /
+le paysage charbon /
+le paysage poussière /
+le paysage cambouis /
+le paysage mâchefer /
+le paysage châtré gommé effacé relégué et rejeté dans l'ombre » J. Prévert
+              </p><br> 
+              <p class="lien-dessin-smartphone">
+                <a href="http://lauracaillaux.fr/creationartistique/portfolio/le-paysage-changeur/" target="_blank" rel="noopener noreferrer">
+                  > voir plus  
+                </a>
+              </p>  
+            </div>
             <div>
               <img src="~/assets/img/paysagechangeur02.jpg" alt="dessin laura caillaux le paysage changeur" id="dessin1">
             </div>
@@ -92,7 +135,8 @@ le paysage châtré gommé effacé relégué et rejeté dans l'ombre » J. Prév
               <p class="lien-dessin">
                 <a href="http://lauracaillaux.fr/creationartistique/portfolio/le-paysage-changeur/" target="_blank" rel="noopener noreferrer">
                   > voir plus  
-                </a>              </p>  
+                </a>
+              </p>  
             </div>
           </div>
 
@@ -154,7 +198,9 @@ Les hommes masqués
         margin: 120px 0 0 0;
         padding: 0 85px;
         width: 100%;
-
+        .legendes-smartphone {
+          display: none;
+        }
         & .lien-dessin {
           font-style: italic;
           font-weight: 700;
@@ -256,4 +302,131 @@ Les hommes masqués
 
     }
   }
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+  #dessin {
+    #main-dessin {
+      border: none;
+      .legendes-smartphone {
+        margin: 60px 0 10px 0;
+        width: 90vw;
+        border: 1px solid $blue;
+        padding: 12px;
+        font-family: $text;
+        h1 {
+          font-family: $ff-serif;
+        }
+        .legendes-infos-smartphone {
+          font-style: italic;
+        }
+        .lien-dessin-smartphone {
+          font-weight: 700;
+        }
+      }
+      img {
+        width: 90vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      & #fil-ariane {
+      }
+
+      & #title {
+        & h1 {
+          font-size: 33px;
+        }
+        & .trait {
+        }
+      }
+
+      & #content-dessin {
+        margin-top:20px;
+        padding: 0;
+        .legendes-smartphone {
+          display: block;
+        }
+        & .lien-dessin {
+        }
+
+        & img {
+        }
+
+        & .projet-content {
+        }
+
+        & .legendes {
+          display: none;
+
+          & h1 {
+          }
+
+          & .legendes-infos {
+          }
+
+        }
+
+// *******************************************        
+// ********* STYLE PROJETS *******************
+// *******************************************
+
+
+// *****CES VILLES LA ************************
+        & #cesvillesla {
+          margin: 0;
+
+          & #legende-cesvilles {
+          }
+
+          & #dessin2 {
+            margin: 0;
+          }
+
+          & #dessin3 {
+            margin: 0;
+            width: 90vw;
+          }
+
+          & #dessin3 {
+          }
+
+          & #dessin4 {
+            margin: 0;
+          }
+
+        }
+
+// ***** LE PAYSAGE CHANGEUR ************************
+        & #paysagechangeur {
+
+          & #legende-paysagechangeur {
+      
+          }
+
+          & #dessin2 {
+            margin-top: 0;
+            margin-left: 0;
+            width: 90vw;
+          }
+
+          & #dessin3 {
+            margin: 0;
+           
+          }
+
+          & #dessin4 {
+            margin: 0;
+            width: 90vw;
+          }
+
+        }
+
+
+      }
+
+    }
+  }
+}
 </style>

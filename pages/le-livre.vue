@@ -104,4 +104,36 @@ export default {
 
     }
   }
+
+
+///////////// SMARTPHONE 600 PX /////////////////////
+
+@media (max-width: 600px) {
+  #livre {
+    #main-livre {
+      border: none;
+      padding: 0;
+      & #fil-ariane {
+ 
+      }
+
+      & #title {
+    
+        & h1 {
+          font-size: 34px;
+          text-align: center;
+        }
+        & .trait {
+
+        }
+      }
+
+      #vignettes {
+        justify-content: center;
+        width: 90vw;
+      }
+
+    }
+  }
+}
 </style>

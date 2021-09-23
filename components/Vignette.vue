@@ -75,4 +75,28 @@ import projectData from "~/data/livres.json";
 
   }
 }
+
+
+///////////// SMARTPHONE 600 PX /////////////////////
+
+@media (max-width: 600px) {
+#vignette {
+
+        
+  & img {
+    width: 40vw;
+  }
+
+  & #legende {
+    display: none;
+
+    & #italic {
+    }
+
+    & .bold {
+    }
+
+  }
+}
+}
 </style>

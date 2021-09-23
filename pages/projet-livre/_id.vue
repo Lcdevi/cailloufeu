@@ -119,4 +119,44 @@ import { mapState } from "vuex";
       }
   }
 }
+
+///////////// SMARTPHONE 600 PX /////////////////////
+
+@media (max-width: 600px) {
+  #projet-livre {
+    #main-projet-livre {    
+      border: none;
+
+        & #fil-ariane {
+
+        }
+
+        & #content {
+          flex-direction: column;
+
+          & #legende {
+            width:90vw;
+
+            & #italique {
+            
+            }
+
+            & span {
+         
+            }
+
+          }
+
+        }
+
+        & #main-image {
+          width: 90vw;
+        }
+
+        & img {
+          width: 90vw;
+        }
+    }
+  }
+}
 </style>
