@@ -58,6 +58,7 @@ export default {
     height: 20px;
     padding: 3px;
     margin: 0 4px;
+    border-radius: 0;
   }
   & button {
     background-color: white;
