@@ -168,7 +168,7 @@
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 1011px) {
   #navbar {
     display: none;
   }
