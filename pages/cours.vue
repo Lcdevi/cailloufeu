@@ -32,11 +32,11 @@ COURS - COURS
               <h2>LES COURS DE RELIURE</h2><br>
               Vous pouvez reserver votre cours avec WeCanDoo. 3 participants maximum.<br><br>
               <span>Initiation</span> avec le duo de petits carnets.<br>
-              1h30 / 40€<br><br>
+              2h / 40€<br><br>
               <span>Poussée</span> avec la reliure croisée, dos toilé, couverture rigide.<br>
-              3h / 79€<br><br>
+              3h / 78€<br><br>
               <span>Traditionnelle</span> avec la reliure à la bradel.<br>
-              5h / 126€<br><br>
+              4h / 90€<br><br>
               <a href="https://wecandoo.fr/atelier/paris-laura-duo-carnets" target="_blank" rel="noopener noreferrer">
               <span>> reservation reliure initiation</span>
               </a><br>
@@ -186,4 +186,116 @@ COURS - WORKSHOP
 
     }
   }
+
+
+/////////////////////// RESPONSIVE /////////////////////////
+
+
+////////////// IPAD PRO //////////////////
+
+@media (max-width: 1144px) {
+  #cours {
+  
+    #main-cours {
+
+      & #cours-content {
+ 
+
+        & img {
+          border: 1px solid red;
+          width: 470px;
+        }
+
+        & .cours-div {
+
+          & #cours-legende-wecandoo {
+            margin-bottom: -48px;
+          }
+          & #cours-legende-stage {
+            margin-bottom: -53px;
+          }
+          & #cours-legende-workshop {
+          }
+        }
+
+      }
+
+    }
+  }
+
+}
+
+
+////////////// IPAD //////////////////
+
+@media (max-width: 1011px) {
+  #cours {
+  
+    #main-cours {
+
+      & #cours-content {
+ 
+
+        & img {
+          border: 2px solid green;
+          width: 470px;
+        }
+
+        & .cours-div {
+          flex-direction: column;
+
+          & #cours-legende-general {
+            margin-left: 0;
+          }
+          & #cours-legende-wecandoo {
+            margin-right: 0;
+          }
+          & #cours-legende-stage {
+            margin: -50px;
+          }
+          & #cours-legende-workshop {
+            margin: 0 0 -30px 0;
+          }
+        }
+
+      }
+
+    }
+  }
+
+}
+
+
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+  #cours {
+  
+    #main-cours {
+      border: none;
+
+      & #cours-content {
+ 
+
+        & img {
+          border: 1px solid red;
+          width: 90vw;
+        }
+
+        & .cours-div {
+
+          & #cours-legende-general, #cours-legende-wecandoo, #cours-legende-stage, #cours-legende-workshop {
+            width: 90vw;
+            margin: 0;
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+}
+
 </style>

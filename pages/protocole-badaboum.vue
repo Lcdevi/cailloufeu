@@ -20,7 +20,7 @@
             <p>L’atelier <span>Protocole BADABOUM</span> est une invitation à construire une histoire en bande dessinée, penser et réaliser sa couverture, puis finaliser sa création en reliant les pages et la couverture sous forme de livre broché.<br><br>
             Animé par deux intervenants, Jonathan Daviau, auteur-illustrateur et Laura Caillaux, artisan relieuse et illustratrice.<br><br>
             N’hesitez pas à nous contacter pour avoir plus d’informations !<br><br>
-            email: <span>protocolebadaboum@gmail.com</span>
+            email: <span>jonathan.daviau@gmail.com</span>
             </p>
           </div>
         </div>

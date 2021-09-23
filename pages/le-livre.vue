@@ -98,7 +98,7 @@ export default {
         // border: 1px solid blue;
         display: flex;
         flex-wrap: wrap;
-        width: 73vw;
+        width: 74vw;
         margin-bottom: 120px;
       }
 
