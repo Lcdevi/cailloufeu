@@ -1,6 +1,7 @@
 <template>
 <div id="contact">
   <Navbar />
+  <ResponsiveNavbar />
     <div id="main-contact">
       <div id="title">
         <div class="trait"></div>

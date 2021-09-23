@@ -1,6 +1,7 @@
 <template>
 <div id="protocole">
   <Navbar />
+  <ResponsiveNavbar />
     <div id="main-protocole">
       <div id="title">
         <div class="trait"></div>
@@ -141,6 +142,7 @@
       }
 
       & #title {
+        margin-top: 140px;
         & h1 {
           text-align: center;
         }

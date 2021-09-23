@@ -1,6 +1,7 @@
 <template>
   <div id="shop">
     <Navbar />
+    <ResponsiveNavbar />
       <div id="text">
         <div id="title">
           <div class="trait"></div>

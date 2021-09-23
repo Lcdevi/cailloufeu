@@ -1,6 +1,7 @@
 <template>
   <div id="inscription">
     <Navbar />
+    <ResponsiveNavbar />
     <div id="main-inscription">
       <div id="title">
         <div class="trait"></div>
@@ -197,6 +198,7 @@ export default {
       }
 
       & #title {
+        margin-top: 140px;
         & h1 {
         }
         & .trait {

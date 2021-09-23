@@ -1,6 +1,7 @@
 <template>
 <div id="projets">
   <Navbar />
+  <ResponsiveNavbar />
     <div id="main-projets">
       <div id="title">
         <div class="trait"></div>

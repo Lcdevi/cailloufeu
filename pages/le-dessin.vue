@@ -1,6 +1,7 @@
 <template>
   <div id="dessin">
     <Navbar />
+    <ResponsiveNavbar />
       <div id="main-dessin">
         <div id="fil-ariane">
           <p>

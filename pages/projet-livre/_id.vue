@@ -1,6 +1,7 @@
 <template>
   <div id="projet-livre">
     <Navbar />
+    <ResponsiveNavbar />
     <div id="main-projet-livre">
       <div id="fil-ariane">
         <p>
