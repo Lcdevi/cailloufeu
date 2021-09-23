@@ -1,4 +1,6 @@
 import data from './data/livres.json'
+const Dotenv = require('dotenv-webpack');
+
 
 let dynamicRoutes = () => {
   return new Promise(resolve => {
