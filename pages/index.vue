@@ -166,7 +166,7 @@
           align-items: center;
           margin-top: 40px;
           & img {
-            width: 45vw;
+            width: 58vw;
             margin: 0 0 20px 0;            
           }
           & #text {

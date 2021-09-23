@@ -84,7 +84,7 @@ import projectData from "~/data/livres.json";
 
         
   & img {
-    width: 40vw;
+    width: 47vw;
   }
 
   & #legende {

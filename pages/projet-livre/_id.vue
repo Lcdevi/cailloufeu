@@ -122,7 +122,7 @@ import { mapState } from "vuex";
 
 ///////////// SMARTPHONE 600 PX /////////////////////
 
-@media (max-width: 600px) {
+@media (max-width: 1126px) {
   #projet-livre {
     #main-projet-livre {    
       border: none;
@@ -133,7 +133,6 @@ import { mapState } from "vuex";
 
         & #content {
           flex-direction: column;
-
           & #legende {
             width:90vw;
 

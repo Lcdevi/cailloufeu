@@ -130,7 +130,7 @@ export default {
 
       #vignettes {
         justify-content: center;
-        width: 90vw;
+        width: 100vw;
       }
 
     }
