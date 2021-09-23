@@ -1,6 +1,15 @@
 <template>
   <div class="contactform-container">
-    <form class="contact-form" @submit.prevent="sendEmail">
+  <form ref="form" @submit.prevent="sendEmail">
+    <label>Name</label>
+    <input type="text" name="user_name">
+    <label>Email</label>
+    <input type="email" name="user_email">
+    <label>Message</label>
+    <textarea name="message"></textarea>
+    <input type="submit" value="Send">
+  </form>
+    <!-- <form class="contact-form" @submit.prevent="sendEmail" novalidate="true">
       <label>nom</label>
       <input class="input" type="text" name="name">
       <label>adresse email</label>
@@ -9,11 +18,11 @@
       <input class="input" type="text" name="subject">
       <label>message</label>
       <textarea name="message"></textarea>
-      <!-- <input type="submit" value="Envoyer"> -->
+      <input type="submit" value="Envoyer">
       <div class="submit">
         <button type="submit" value="Send">envoyer</button>
       </div>
-    </form>
+    </form> -->
     <p v-if="validate" id="validatemessage">Votre message a bien été envoyé, merci !</p>  
     <Adress />
   </div>
@@ -26,17 +35,29 @@ export default {
   mounted() {
     // console.log(process.env.YOUR_SERVICE_ID)
   },
+  // methods: {
+  //   sendEmail: (e) => {
+  //     emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, e.target, process.env.YOUR_USER_ID)
+  //       .then((result) => {
+  //           console.log('SUCCESS!', result.status, result.text);
+  //           alert("message envoyé")
+  //       }, (error) => {
+  //           console.log('FAILED...', error);
+  //           alert("ATTENTION votre message n'a pas pu être envoyé")
+  //       });
+  //       e.target.reset();
+  //   }
+  // },
+
+
   methods: {
-    sendEmail: (e) => {
-      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, e.target, process.env.YOUR_USER_ID)
+    sendEmail() {
+      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, this.$refs.form, process.env.YOUR_USER_ID)
         .then((result) => {
-            console.log('SUCCESS!', result.status, result.text);
-            alert("message envoyé")
+            console.log('SUCCESS!', result.text);
         }, (error) => {
-            console.log('FAILED...', error);
-            alert("ATTENTION votre message n'a pas pu être envoyé")
+            console.log('FAILED...', error.text);
         });
-        e.target.reset();
     }
   },
 
