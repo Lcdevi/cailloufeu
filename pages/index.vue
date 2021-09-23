@@ -108,4 +108,73 @@
 
 }
 
+
+
+///////////// IPAD 1011 PX /////////////////////
+
+@media (max-width: 1011px) {
+
+  #atelier {
+    #main-atelier {
+      & #title {
+        & h1 {
+        }
+        & .trait {
+        }
+      }
+      & #informations {
+        & #bandeau {      
+          & img {
+          }
+        }
+        & #main-content {
+          width: 90vw;
+          & img {
+            width: 45vw;
+            margin-right: 20px;
+          }
+          & #text {
+          }
+        }
+      }
+    }
+  }
+}
+
+
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+
+  #atelier {
+    #main-atelier {
+      border: none;
+      & #title {
+        & h1 {
+        }
+        & .trait {
+        }
+      }
+      & #informations {
+        & #bandeau {      
+          & img {
+          }
+        }
+        & #main-content {
+          flex-direction: column;
+          width: 90vw;
+          align-items: center;
+          margin-top: 40px;
+          & img {
+            width: 45vw;
+            margin: 0 0 20px 0;            
+          }
+          & #text {
+            width: 90vw;
+          }
+        }
+      }
+    }
+  }
+}
 </style>
