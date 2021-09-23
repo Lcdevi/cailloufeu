@@ -11,7 +11,7 @@
   border-left: 2px solid $frame;
   border-bottom: 2px solid $frame;
   font-family: 'Quicksand', serif;
-  font-size: 15px;
+  font-size: 14px;
   padding: 20px;
   & p {
     text-align: center;
@@ -26,7 +26,7 @@
 
 @media (max-width: 1024px) {
   #footer {
-    & p{
+    & p {
       font-size: 12px;
     }
   }

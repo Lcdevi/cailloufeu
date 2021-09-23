@@ -16,6 +16,7 @@ tiers lieu geré par l’association Soukmachines<br>
   text-align: center;
   margin: 80px 0 0 0;
   font-family: $text;
+  font-size: 16px;
 }
 
 </style>

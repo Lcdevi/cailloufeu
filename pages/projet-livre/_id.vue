@@ -121,7 +121,7 @@ import { mapState } from "vuex";
   }
 }
 
-///////////// SMARTPHONE 600 PX /////////////////////
+///////////// SMARTPHONE 1126 PX /////////////////////
 
 @media (max-width: 1126px) {
   #projet-livre {
@@ -136,6 +136,7 @@ import { mapState } from "vuex";
           flex-direction: column;
           & #legende {
             width:90vw;
+            font-size: 15px;
 
             & #italique {
             

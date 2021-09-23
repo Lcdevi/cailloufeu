@@ -2,7 +2,7 @@
 <div id="navbar">
   <div id="logo">
     <NuxtLink to="/">
-      <img src="~/assets/img/logo-cailloufeu-silex.JPG" alt="logo caillou feu laura caillaux">
+      <img src="~/assets/img/logo-cailloufeu-silex-calame.JPG" alt="logo caillou feu laura caillaux">
     </NuxtLink>
     <div id="trait"></div>
   </div>
@@ -59,9 +59,11 @@
 
     & #logo {
       display: flex;
+      align-items: center;
 
       & img {
         width: 240px;
+        padding: 20px;
         // height: auto;
         // border-right: 2px solid $frame;
       }

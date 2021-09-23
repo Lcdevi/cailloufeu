@@ -145,6 +145,24 @@ export default {
   }
 }
 
+@media (max-width: 880px) {
+
+  #shop {
+    & #text {
+      & img {
+        width: 200px;
+      }
+      & p {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 15px;
+      }
+    }
+  }
+
+
+}
+
 @media (max-width: 414px) {
 
   #shop {
