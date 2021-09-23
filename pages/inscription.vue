@@ -50,7 +50,7 @@ export default {
   },
   methods: {
     sendEmail: (e) => {
-      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID_INSCRIPTION, e.target, process.env.YOUR_USER_ID)
+      emailjs.sendForm("service_dapgoeh", "template_isqxedl", e.target, "user_Px6NrRyRJfhGW63Y8PmNy")
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
             alert("message envoyé")

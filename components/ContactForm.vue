@@ -36,7 +36,7 @@ export default {
 
   methods: {
     sendEmail(e) {
-      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, this.$refs.form, process.env.YOUR_USER_ID)
+      emailjs.sendForm("service_dapgoeh", "template_6835ge7", this.$refs.form, "user_Px6NrRyRJfhGW63Y8PmNy")
         .then((result) => {
             console.log('SUCCESS!', result.text);
             // alert("message envoyé")
