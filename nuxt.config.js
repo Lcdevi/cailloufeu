@@ -1,13 +1,10 @@
 import data from './data/livres.json'
-import dotenv from 'dotenv-webpack'
-
 
 let dynamicRoutes = () => {
   return new Promise(resolve => {
     resolve(data.map(el => `le-livre/${el.id}`))
   })
 }
-
 
 export default {
   generate: {
@@ -49,9 +46,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    new dotenv({
-      systemvars: true
-    })
+   
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
