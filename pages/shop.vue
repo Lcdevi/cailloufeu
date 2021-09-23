@@ -143,4 +143,16 @@ export default {
         }
   }
 }
+
+@media (max-width: 414px) {
+
+  #shop {
+    #text {
+      border: none;
+    }
+  }
+
+
+}
+
 </style>

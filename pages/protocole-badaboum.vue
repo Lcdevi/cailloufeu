@@ -103,6 +103,7 @@
           font-size: 51px;
           font-weight: 400;
           text-transform: uppercase;
+          text-align: center;
         }
         & .trait {
           width: 62px;
