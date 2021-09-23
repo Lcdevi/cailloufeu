@@ -35,9 +35,9 @@
 </template>
 
 <script>
-import adress from '../components/adress.vue'
-export default {
-  components: { adress },}
+// import adress from '../components/adress.vue'
+// export default {
+//   components: { adress },}
 </script>
 
 
