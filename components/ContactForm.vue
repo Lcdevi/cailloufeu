@@ -103,4 +103,40 @@ export default {
       font-weight: 700;
     }
   }
+
+
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+  .contactform-container {
+    width: 90vw;
+
+    & .contact-form {
+   
+      & label {
+   
+      }
+      & .input {
+      }
+      & textarea, .input{
+       
+      }
+      & textarea {
+       
+      }
+      & .submit {
+      
+        & button {
+        
+        }
+      & button:hover {
+         
+        }
+      }
+    }
+    & #validatemessage {
+
+    }
+  }
+}
 </style>

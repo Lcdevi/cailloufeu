@@ -119,59 +119,31 @@
 /////////////////////// RESPONSIVE /////////////////////////
 
 
-////////////// IPAD PRO //////////////////
+////////////// SMARTPHONE //////////////////
 
 @media (max-width: 414px) {
 
 
   #protocole {
-  
     #main-protocole {
       border: none;
-
-
       & #protocole-content {
-      
-
-        & img {
-        }
-
-        & #protocole-pres {
-  
-        }
-
         & #protocole-images {
           & img {
             width: 90vw;
           }
-   
-
           & #legende {
             width: 90vw;
             margin: 0;
-       
-            
-            
-            & span {
-            }
-
           }
-
         }
-
       }
 
       & #title {
-
         & h1 {
           text-align: center;
- 
-        }
-        & .trait {
-
         }
       }
-
     }
   }
 

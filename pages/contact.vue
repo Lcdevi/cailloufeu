@@ -94,4 +94,42 @@ Je me ferais un plaisir de vous répondre au plus vite !</p>
 
     }
   }
+
+
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+  #contact {
+  
+    #main-contact {
+      border: 0;
+    
+
+      & #contact-content {
+     
+
+        & #contact-pres {
+          width: 90vw;
+        }
+
+        & h2 {
+          font-size: 30px;
+        }
+
+      }
+
+      & #title {
+
+        & h1 {
+
+        }
+        & .trait {
+
+        }
+      }
+
+    }
+  }
+
+}
 </style>
