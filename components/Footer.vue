@@ -1,6 +1,6 @@
 <template>
   <div id="footer">
-    <p>copyright ©laura caillaux 2021 - site web designé et developpé par Laura Caillaux et hebergé chez OVH<p>
+    <p>copyright ©laura caillaux 2021 - site web designé et developpé par  <a href="https://www.malt.fr/profile/lauracaillaux" target="_blank" rel="noopener noreferrer"> Laura Caillaux </a> et hebergé chez OVH<p>
     <p>toutes les photos et images sur ce site appartiennent à Laura Caillaux et ne peuvent être utilisées sans son accord</p>
   </div>
 </template>
@@ -16,6 +16,9 @@
   & p {
     text-align: center;
     }
+    & a {
+      text-decoration: underline;
+    }
 }
 
 
@@ -24,7 +27,7 @@
 @media (max-width: 1024px) {
   #footer {
     & p{
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 }
