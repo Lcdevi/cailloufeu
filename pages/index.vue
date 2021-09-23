@@ -9,7 +9,8 @@
       </div>
       <div id="informations">
         <div id="bandeau">
-          <img src="~/assets/img/bandeau-silex.jpg" alt="">
+          <img src="~/assets/img/bandeau-silex-responsive.jpg" alt="" id="bandeau-responsive">
+          <img src="~/assets/img/bandeau-silex.jpg" alt="" id="bandeau-desktop">
         </div>
         <div id="main-content">
           <div>
@@ -83,6 +84,13 @@
       margin-bottom: 60px;
 
       & #bandeau {
+
+        & #bandeau-responsive {
+          display: none;
+        }
+        & #bandeau-desktop {
+          display: block;
+        }
         
         & img {
           width: 90vw;
@@ -156,7 +164,13 @@
         }
       }
       & #informations {
-        & #bandeau {      
+        & #bandeau { 
+        & #bandeau-responsive {
+          display: block;
+        }    
+        & #bandeau-desktop {
+          display: none;
+        }   
           & img {
           }
         }

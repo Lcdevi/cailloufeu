@@ -99,7 +99,14 @@ export default {
     & input {
       margin: 4px 0;
       width: 100%;
-      height: 30px;
+      height: 34px;
+      border-radius: 0px;
+    }
+    & button {
+      width: 74px;
+      height: 29px;
+      color: $blue;
+      background-color: white;
     }
   }
 
