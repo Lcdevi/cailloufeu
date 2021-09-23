@@ -52,7 +52,7 @@ export default {
 
   methods: {
     sendEmail() {
-      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, this.$refs.form, process.env.YOUR_USER_ID)
+      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, this.$refs.form, "user_Px6NrRyRJfhGW63Y8PmNy")
         .then((result) => {
             console.log('SUCCESS!', result.text);
         }, (error) => {
