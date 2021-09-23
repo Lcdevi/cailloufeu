@@ -46,11 +46,11 @@ import emailjs from 'emailjs-com';
 
 export default {
   mounted() {
-    // console.log(process.env.YOUR_SERVICE_ID)
+    console.log(process.env.YOUR_SERVICE_ID)
   },
   methods: {
     sendEmail: (e) => {
-      emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID_INSCRIPTION, e.target, YOUR_USER_ID)
+      emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID_INSCRIPTION, e.target, process.env.YOUR_USER_ID)
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
             alert("message envoyé")
