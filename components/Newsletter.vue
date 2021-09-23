@@ -78,5 +78,28 @@ export default {
   }
 }
 
+///////////// IPADPRO 1024 PX /////////////////////
 
+@media (max-width: 1024px) {
+
+}
+
+
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+
+  #newsletter {
+    border: none;
+    font-size: 14px;
+    flex-direction: column;
+    background-color: $blue;
+    color: white;
+    padding: 20px;
+    & input {
+      margin: 4px 0
+    }
+  }
+
+}
 </style>

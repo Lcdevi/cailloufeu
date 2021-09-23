@@ -13,10 +13,28 @@
   font-family: 'Quicksand', serif;
   font-size: 15px;
   padding: 20px;
-
   & p {
     text-align: center;
     }
+}
 
+
+///////////// IPADPRO 1024 PX /////////////////////
+
+@media (max-width: 1024px) {
+  #footer {
+    & p{
+      font-size: 10px;
+    }
+  }
+}
+
+
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+  #footer {
+    border: none;
+  }
 }
 </style>
