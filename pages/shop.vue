@@ -12,17 +12,49 @@
         <p>Revenez plus tard ou suivez l'atelier Caillou Feu sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> pour être prévenu.e des prochaines ventes !</p><br>
         <p>Vous pouvez aussi vous inscrire à la newsletter pour être informé.e des préventes et autres joyeusetés.</p><br><br>
         <p id="newsletter">Newsletter</p>
-        <form class="contact-form" @submit.prevent="sendEmail">
+        <form ref="form" class="contact-form" @submit.prevent="sendEmail">
           <label>adresse email</label>
           <input class="input" type="email" name="email">
           <div class="submit">
             <button type="submit" value="Send">envoyer</button>
           </div>
         </form>
+        <p v-if="validate" id="validatemessage">Inscription envoyée, merci !</p>  
       </div>
     <Footer />
   </div>
 </template>
+
+<script>
+import emailjs from 'emailjs-com';
+
+export default {
+  data() {
+    return {
+      validate: false,
+      unvalidate: false
+    }
+  },
+
+  methods: {
+    sendEmail(e) {
+      emailjs.sendForm("service_owxtdwe", "template_4o27f7p", this.$refs.form, "user_NaM1stgXQWebtXCjHYdox")
+        .then((result) => {
+            console.log('SUCCESS!', result.text);
+            // alert("message envoyé")
+            this.validate = true;
+        }, (error) => {
+            console.log('FAILED...', error.text);
+            // alert("ATTENTION votre message n'a pas pu être envoyé")
+            this.unvalidate = true;
+        });
+        e.target.reset();
+    }
+  }
+
+
+}
+</script>
 
 <style lang="scss" scoped>
 #shop {

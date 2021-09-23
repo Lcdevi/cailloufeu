@@ -99,7 +99,7 @@ export default {
     }
     & #validatemessage {
       // display: none;
-      color: rgb(27, 138, 99);
+      color: $green;
       font-weight: 700;
     }
   }
