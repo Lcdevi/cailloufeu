@@ -202,7 +202,7 @@ COURS - WORKSHOP
  
 
         & img {
-          border: 1px solid red;
+          // border: 1px solid red;
           width: 470px;
         }
 
@@ -237,7 +237,7 @@ COURS - WORKSHOP
  
 
         & img {
-          border: 2px solid green;
+          // border: 2px solid green;
           width: 470px;
         }
 
@@ -278,7 +278,7 @@ COURS - WORKSHOP
  
 
         & img {
-          border: 1px solid red;
+          // border: 1px solid red;
           width: 90vw;
         }
 

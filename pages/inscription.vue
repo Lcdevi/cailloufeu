@@ -141,6 +141,7 @@ export default {
       height: 62px;
       margin: 72px 0 120px 0;
       align-items: center;
+      text-align: center;
       & h1 {
         font-family: $text;
         color: $blue;
@@ -159,6 +160,52 @@ export default {
 
   }
 
+}
+
+///////////// SMARTPHONE 414 PX /////////////////////
+
+@media (max-width: 414px) {
+
+  #inscription {
+    
+    #main-inscription {
+      border: none;
+
+      & #inscription-pres {
+      }
+
+      & #inscription-formulaire {
+        width: 90vw;
+        & .inscription-form {
+        & span {
+        }
+        & label {
+        }
+        & .input {
+        }
+        & textarea, .input{
+        }
+        & textarea {
+        }
+        & .submit {
+          & button {
+          }
+        & button:hover {
+          }
+        }
+      }
+      }
+
+      & #title {
+        & h1 {
+        }
+        & .trait {
+        }
+      }
+
+
+    }
+  }
 }
 
 </style>
