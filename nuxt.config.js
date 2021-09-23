@@ -1,5 +1,5 @@
 import data from './data/livres.json'
-const Dotenv = require('dotenv-webpack');
+import dotenv from 'dotenv'
 
 
 let dynamicRoutes = () => {
@@ -49,7 +49,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    new Dotenv({
+    new dotenv({
       systemvars: true
     })
   ],
