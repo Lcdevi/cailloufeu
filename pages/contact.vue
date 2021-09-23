@@ -14,9 +14,9 @@ PRESENTATION
 ************************************************ -->
         <div id="contact-pres">
           <p>Vous avez un projet de reliure, édition d’art, auto-édition, fanzine, emboitage, cartonnage... ?<br>
-          Vous êtes interessé-e-s par les cours et souhaitez des informations complémentaires ?<br>
+          Vous êtes interessé.e.s par les cours et souhaitez des informations complémentaires ?<br>
           Vous souhaitez en savoir plus sur mon activité dessinée ?<br>
-          N’hesitez pas à m’écrire par mail</p>
+          N’hesitez pas à m’écrire par mail :</p>
         </div>
 <!-- *******************************************
 EMAIL

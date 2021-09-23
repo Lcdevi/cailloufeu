@@ -10,7 +10,7 @@
         <img src="~/assets/img/shop/silex_calame-shop.jpg" alt="cours reliure atelier caillou feu laura caillaux">
         <p>Désolé, les carnets et autres livres sont en train d'être reliés.</p><br>
         <p>Revenez plus tard ou suivez l'atelier Caillou Feu sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> pour être prévenu.e des prochaines ventes !</p><br>
-        <p>Vous pouvez aussi vous inscrire à la newsletter pour être informé.e des préventes et autres joyeusetés.</p><br><br>
+        <p>Pour être informé.e de la date de la prochaine vente en ligne et autres joyeusetés, vous pouvez aussi vous inscrire à la newsletter.</p><br><br>
         <p id="newsletter">Newsletter</p>
         <form ref="form" class="contact-form" @submit.prevent="sendEmail">
           <label>adresse email</label>

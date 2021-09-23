@@ -1,6 +1,7 @@
 <template>
   <div id="atelier">
     <Navbar />
+    <ResponsiveNavbar />
     <div id="main-atelier">
       <div id="title">
         <div class="trait"></div>
@@ -35,11 +36,6 @@
   </div>
 </template>
 
-<script>
-// import adress from '../components/adress.vue'
-// export default {
-//   components: { adress },}
-</script>
 
 
 <style lang="scss" scoped>

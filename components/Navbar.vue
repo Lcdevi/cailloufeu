@@ -165,12 +165,18 @@
 
   }
 
+@media (max-width: 1122px) {
+  #navbar {
+    #logo {
+      display: none;
+    }
+  }
+}
 
-
-
-@media (max-width: 1011px) {
+@media (max-width: 880px) {
   #navbar {
     display: none;
   }
 }
+
 </style>
