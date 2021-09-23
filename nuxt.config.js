@@ -1,5 +1,5 @@
 import data from './data/livres.json'
-import dotenv from 'dotenv'
+import dotenv from 'dotenv-webpack'
 
 
 let dynamicRoutes = () => {
