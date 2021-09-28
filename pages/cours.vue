@@ -89,9 +89,9 @@ COURS - WORKSHOP
             <span>> formulaire inscription workshop</span>
             </NuxtLink>
           </div>
-          <div>
+          <div id="ineshosni-div">
             <img src="~/assets/img/cours/cours-laura-caillaux-workshop-hosni.jpg" alt="workshop reliure atelier caillou feu laura caillaux">
-            <p id="legende-ines"><span>Le ciel est gris, maman</span> de <a href="http://www.ineshosni.com/"> Inès Hosni </a> - 2017</p>
+            <p id="legende-ines"><span>Le ciel est gris, maman</span> de <a href="http://www.ineshosni.com/" target="_blank" rel="noopener noreferrer"> Inès Hosni </a> - 2017</p>
           </div>
         </div>
       </div>
@@ -184,12 +184,17 @@ COURS - WORKSHOP
             width: 400px;
             margin: 1px -108px -110px 1px;
           }
-         & #legende-ines {
-            font-family: $text;
-            font-size: 14px;
-            & span {
-              font-style: italic;
-            }
+          & #ineshosni-div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            & #legende-ines {
+                font-family: $text;
+                font-size: 14px;
+                & span {
+                  font-style: italic;
+                }
+              }
           }
         }
 

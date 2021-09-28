@@ -10,8 +10,8 @@
       </div>
       <div id="informations">
         <div id="bandeau">
-          <img src="~/assets/img/bandeau-silex-responsive.jpg" alt="" id="bandeau-responsive">
-          <img src="~/assets/img/bandeau-silex.jpg" alt="" id="bandeau-desktop">
+          <img src="~/assets/img/bandeau-silex-responsive.jpg" alt="" id="bandeau-responsive dessins de silex">
+          <img src="~/assets/img/bandeau-silex.jpg" alt="" id="bandeau-desktop dessins silex">
         </div>
         <div id="main-content">
           <div>

@@ -8,7 +8,7 @@
             <h1>shop</h1>
           <div class="trait"></div>
         </div>
-        <img src="~/assets/img/shop/silex_calame-shop.jpg" alt="cours reliure atelier caillou feu laura caillaux">
+        <img src="~/assets/img/shop/silex_calame-shop.jpg" alt="dessin d'un silex au calame">
         <p>Désolé, les carnets et autres livres sont en train d'être reliés.</p><br>
         <p>Revenez plus tard ou suivez l'atelier Caillou Feu sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> pour être prévenu.e des prochaines ventes !</p><br>
         <p>Pour être informé.e de la date de la prochaine vente en ligne et autres joyeusetés, vous pouvez aussi vous inscrire à la newsletter.</p><br><br>
