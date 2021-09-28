@@ -194,7 +194,7 @@ L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner 
           & #atelier-img-responsive {
             display: block;
             & img {
-              width: 100vw;
+              width: 98vw;
               margin: 0;
             }
           }
