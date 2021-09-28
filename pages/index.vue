@@ -14,8 +14,11 @@
           <img src="~/assets/img/bandeau-silex.jpg" alt="dessin silex à l'encre" id="bandeau-desktop">
         </div>
         <div id="main-content">
-          <div>
+          <div id="atelier-image" >
             <img src="~/assets/img/atelier-laura-caillaux.jpg" alt="atelier caillou feu laura caillaux">
+          </div>
+          <div id="atelier-img-responsive">
+            <img src="~/assets/img/atelier-laura-caillaux-responsive.jpg" alt="atelier caillou feu laura caillaux">
           </div>
           <div id="text">
             <p>
@@ -94,10 +97,15 @@ L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner 
         // border: 1px solid blue;
         display: flex;
         margin-top: 140px;
-        & img {
-          width: 410px;
-          // border-radius: 220px;
-          margin-right: 16px;
+        & #atelier-image{
+          & img {
+            width: 410px;
+            // border-radius: 220px;
+            margin-right: 16px;
+          }
+        } 
+        & #atelier-img-responsive {
+          display: none;
         }
         & #text {
           width: 410px;
@@ -154,6 +162,7 @@ L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner 
     #main-atelier {
       border: none;
       & #title {
+        margin-bottom: 40px;
         & h1 {
           font-size: 36px;
         }
@@ -169,6 +178,7 @@ L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner 
           display: none;
         }   
           & img {
+            width: 106vw;
           }
         }
         & #main-content {
@@ -176,13 +186,22 @@ L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner 
           width: 90vw;
           align-items: center;
           margin-top: 40px;
-          & img {
-            width: 58vw;
-            margin: 0 0 20px 0;            
+          & #atelier-image {
+            & img {
+              display: none;
+            }
+          }
+          & #atelier-img-responsive {
+            display: block;
+            & img {
+              width: 100vw;
+              margin: 0;
+            }
           }
           & #text {
             width: 90vw;
             font-size: 24px;
+            margin-top: 20px;
           }
         }
       }
