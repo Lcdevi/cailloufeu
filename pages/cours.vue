@@ -33,7 +33,7 @@ COURS - COURS
               <h2>LES COURS DE RELIURE</h2><br>
               Vous pouvez reserver votre cours avec WeCanDoo. 3 participants maximum.<br><br>
               <span>Initiation</span> avec le duo de petits carnets.<br>
-              2h / 40€<br><br>
+              1h30 / 40€<br><br>
               <span>Poussée</span> avec la reliure croisée, dos toilé, couverture rigide.<br>
               3h / 78€<br><br>
               <span>Traditionnelle</span> avec la reliure à la bradel.<br>
