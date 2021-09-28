@@ -122,7 +122,7 @@ Je me ferais un plaisir de vous répondre au plus vite !</p>
       & #title {
 
         & h1 {
-
+          font-size: 36px;
         }
         & .trait {
 

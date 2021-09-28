@@ -145,6 +145,7 @@
         margin-top: 140px;
         & h1 {
           text-align: center;
+          font-size: 36px;
         }
       }
     }

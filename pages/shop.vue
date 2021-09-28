@@ -168,6 +168,11 @@ export default {
   #shop {
     #text {
       border: none;
+      #title {
+        h1 {
+          font-size: 36px;
+        }
+      }
     }
   }
 

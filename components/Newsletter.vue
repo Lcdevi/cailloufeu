@@ -94,8 +94,8 @@ export default {
     border: none;
     font-size: 14px;
     flex-direction: column;
-    background-color: $blue;
-    color: white;
+    color: $blue;
+    border: 1px solid $blue;
     padding: 20px;
     & input {
       margin: 4px 0;

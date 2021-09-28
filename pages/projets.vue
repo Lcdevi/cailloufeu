@@ -127,7 +127,8 @@
       border: none;
       & #title {
         margin-bottom: 70px;
-        & h1 {       
+        & h1 {     
+          font-size: 36px;  
         }
         & .trait {
         }

@@ -18,13 +18,9 @@
             <img src="~/assets/img/atelier-laura-caillaux.jpg" alt="atelier caillou feu laura caillaux">
           </div>
           <div id="text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quas error, delectus quod eveniet laborum ratione ea, sit voluptas eius officia ipsum odio dolores facere enim reprehenderit velit explicabo. Est?
-            Maxime, dicta aperiam in id at possimus, perspiciatis delectus quam omnis optio, minima rem.</p><br>
-            <p>Totam quisquam voluptates suscipit at aliquid nostrum in quod, commodi, iusto maxime, adipisci minima minus ullam?
-            Architecto alias neque dolores ea id. Numquam maiores libero aliquam amet distinctio, quos quidem tempore laborum iure harum, cupiditate repellendus impedit facilis perferendis autem! A voluptatibus nihil nisi dolorum libero.
-            </p><br>
-            <p>Totam quisquam voluptates suscipit at aliquid nostrum in quod, commodi, iusto maxime, adipisci minima minus ullam?
-            Architecto alias neque dolores ea id. Numquam maiores libero aliquam amet distinctio, quos quidem tempore laborum iure harum, cupiditate repellendus impedit facilis perferendis autem! A voluptatibus nihil nisi dolorum libero.
+            <p>
+              L’atelier CAILLOU FEU est un atelier de reliure, édition, livre d’artiste et dessin basé à Saint-Denis.<br><br>
+L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner à la reliure ont lieux les dimanches, mercredis et jeudis en soirée.
             </p>
           </div>
         </div>
@@ -100,11 +96,15 @@
         margin-top: 140px;
         & img {
           width: 410px;
-          border-radius: 220px;
-          margin-right: 100px;
+          // border-radius: 220px;
+          margin-right: 16px;
         }
         & #text {
           width: 410px;
+          font-family: $text;
+          font-size: 28px;
+          line-height: 42px;
+          margin-top: 90px;
         }
       }
     }
@@ -155,6 +155,7 @@
       border: none;
       & #title {
         & h1 {
+          font-size: 36px;
         }
         & .trait {
         }
@@ -181,6 +182,7 @@
           }
           & #text {
             width: 90vw;
+            font-size: 24px;
           }
         }
       }

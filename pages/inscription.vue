@@ -200,6 +200,7 @@ export default {
       & #title {
         margin-top: 140px;
         & h1 {
+          font-size: 36px;
         }
         & .trait {
         }

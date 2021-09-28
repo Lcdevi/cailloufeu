@@ -40,7 +40,7 @@
         <p><NuxtLink to="/shop">Shop</NuxtLink></p>
       </div>
       <div id="protocole-badaboum">
-        <NuxtLink to="/protocole-badaboum">Protocole BadabOUm</NuxtLink>
+        <NuxtLink to="/protocole-badaboum">Protocole Badaboum</NuxtLink>
       </div>
     </div>
   </div>
