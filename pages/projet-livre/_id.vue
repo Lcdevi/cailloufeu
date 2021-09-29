@@ -15,7 +15,7 @@
         <div id="legende">
           <h1>{{product.title}}</h1><br>
           <span id="italique">{{product.categorie}}</span><br><br>
-          <span>auteur →</span> {{product.auteur}} <br>
+          <span>auteur.trice →</span> {{product.auteur}} <br>
           <span>description →</span> {{product.description}} <br>
           <span>reliure →</span> {{product.reliure}} <br>
           <span>format →</span> {{product.format}} <br>

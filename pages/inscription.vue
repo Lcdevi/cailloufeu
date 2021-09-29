@@ -10,7 +10,7 @@
       </div>
       <div id="inscription-pres">
         <p>Il n'y a pas de session prévue pour l'instant !</p><br>
-        <p>Vous pouvez remplir ce formulaire pour être prévenu-e des prochaines sessions.</p>
+        <p>Vous pouvez remplir ce formulaire pour être prévenu.e des prochaines sessions.</p>
       </div>
         <div id="inscription-formulaire">
           <form class="inscription-form" @submit.prevent="sendEmail">
@@ -18,7 +18,7 @@
             <input class="input" type="text" name="name">
             <label>adresse email</label>
             <input class="input" type="email" name="email">
-            <label>Je suis interessé-e par</label>
+            <label>Je suis interessé.e par</label>
             <div>
               <input type="checkbox" id="stage" name="stage">
               <label for="stage">stage</label>

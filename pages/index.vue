@@ -178,7 +178,7 @@ L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner 
           display: none;
         }   
           & img {
-            width: 106vw;
+            width: 97vw;
           }
         }
         & #main-content {

@@ -31,7 +31,7 @@ COURS - COURS
         <div class="cours-div">
           <div class="cours-legende" id="cours-legende-wecandoo">
               <h2>LES COURS DE RELIURE</h2><br>
-              Vous pouvez reserver votre cours avec WeCanDoo. 3 participants maximum.<br><br>
+              Vous pouvez reserver votre cours avec WeCanDoo. 3 participant.es maximum.<br><br>
               <span>Initiation</span> avec le duo de petits carnets.<br>
               1h30 / 40€<br><br>
               <span>Poussée</span> avec la reliure croisée, dos toilé, couverture rigide.<br>
@@ -81,7 +81,7 @@ COURS - WORKSHOP
             <h2>WORKSHOP EDITION D’ART</h2><br>
             Pendant deux journées, et selon le projet préalablement étudié, vous éditerez votre édition d’art ou auto-édition.<br>
             exemple : portfolio, leporello, boite pour photographies, chemise pour gravure, fanzine...<br>
-            2 participants maximum.<br>
+            2 participant.es maximum.<br>
             Tous les matériaux sont fournis.
             (sauf cuir ou autre matériau particulier)<br><br>
             2 journées / 16h / 280€<br><br>
