@@ -23,7 +23,7 @@
           <div id="text">
             <p>
               L’atelier CAILLOU FEU est un atelier de reliure, édition, livre d’artiste et dessin basé à Saint-Denis.<br><br>
-L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner à la reliure ont lieux les dimanches, mercredis et jeudis en soirée.
+L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner à la reliure ont lieu les dimanches, mercredis et jeudis en soirée.
             </p>
           </div>
         </div>
