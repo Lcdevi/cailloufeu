@@ -134,13 +134,17 @@
         }
       }
       & #content-projects {
-        flex-direction: column;
+        // border: 1px solid red;
+        flex-direction: row;
         margin: 0;
+        font-size: 28px;
+        justify-content: space-around;
         & div {
           align-items: center;
           margin: 20px 0;
         }
         & img {
+          width: 38vw;
         }
         & p {
         }
