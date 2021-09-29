@@ -7,6 +7,11 @@ let dynamicRoutes = () => {
 }
 
 export default {
+  googleAnalytics: {
+    // Options
+    id: 'UA-36308307-1'
+  },
+
   generate: {
     routes: dynamicRoutes
   },
@@ -54,7 +59,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@nuxtjs/google-analytics'
     // Simple usage
     // '@nuxtjs/google-fonts',
 
