@@ -18,9 +18,9 @@ COURS GENERAL
           <img src="~/assets/img/cours/cours-laura-caillaux.jpg" alt="cours reliure atelier caillou feu laura caillaux">
           <div class="cours-legende" id="cours-legende-general">
             <p>
-              L'atelier Caillou FEU propose trois formules différentes :<br><br>
+              L'atelier Caillou Feu propose trois formules différentes :<br><br>
               <span>Cours de reliure</span> pour découvrir, s’initier ou se perfectionner.<br><br>
-              <span>Stage</span> pour découvrir et maîtriser 5 reliures différentes.<br><br>
+              <span>Stage</span> pour découvrir et s'initier à 4 reliures différentes.<br><br>
               <span>Workshop</span> pour prototyper, relier et éditer un projet personnel.
             </p>
           </div>
@@ -57,13 +57,12 @@ COURS - STAGE
           <img src="~/assets/img/cours/cours-laura-caillaux-workshop.jpg" alt="stage reliure atelier caillou feu laura caillaux">
           <div class="cours-legende" id="cours-legende-stage">
               <h2>STAGE DE RELIURE</h2><br>
-              Sur deux journées, l’occasion de découvrir, relier et maîtriser 5 types de reliures différentes.<br><br>
+              Sur deux journées, l’occasion de découvrir, relier et s'initier à 4 types de reliures différentes.<br><br>
               <ul>
                 <li>copte</li>
                 <li>bradel dos droit</li>
                 <li>leporello</li>
                 <li>couture croisée dos toilé</li>
-                <li>japonaise</li>
               </ul>
               <br>
               tout le materiel est fourni<br>

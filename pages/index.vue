@@ -17,13 +17,13 @@
           <div id="atelier-image" >
             <img src="~/assets/img/atelier-laura-caillaux.jpg" alt="atelier caillou feu laura caillaux">
           </div>
+
           <div id="atelier-img-responsive">
             <img src="~/assets/img/atelier-laura-caillaux-responsive.jpg" alt="atelier caillou feu laura caillaux">
           </div>
           <div id="text">
             <p>
-              L’atelier CAILLOU FEU est un atelier de reliure, édition, livre d’artiste et dessin basé à Saint-Denis.<br><br>
-L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner à la reliure ont lieu les dimanches, mercredis et jeudis en soirée.
+              L’atelier <em>Caillou Feu</em> est un atelier de reliure, édition, livre d’artiste et dessin basé à Saint-Denis et ouvert sur rdv.
             </p>
           </div>
         </div>
