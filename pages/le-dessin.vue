@@ -148,7 +148,7 @@ Les hommes masqués
 
         </div>
       </div>
-    <!-- <Newsletter /> -->
+    <Newsletter />
     <Footer />
   </div>
 </template>

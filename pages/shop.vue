@@ -12,7 +12,7 @@
         <div id="shop-news">
           <div>
             <p>La boutique en ligne est fermée. Une production de papeterie est actuellement en cours à l'atelier et va être mise en ligne mi décembre 2021.</p><br>
-            <p>Vous pouvez suivre l'atelier sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> pour être prévenu.e des prochaines ventes.</p><br><br>
+            <p>Vous pouvez suivre l'atelier sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> ou vous inscrire à la newsletter pour être prévenu.e des prochaines ventes.</p><br><br>
           </div>
         </div>
   

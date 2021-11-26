@@ -34,7 +34,7 @@ Je me ferais un plaisir de vous répondre au plus vite !</p>
         <!-- </contact-form> -->
       </div>
     </div>
-  <!-- <Newsletter /> -->
+  <Newsletter />
   <Footer />
 </div>
 </template>
