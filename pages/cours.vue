@@ -31,21 +31,21 @@ COURS - COURS
         <div class="cours-div">
           <div class="cours-legende" id="cours-legende-wecandoo">
               <h2>LES COURS DE RELIURE</h2><br>
-              Vous pouvez reserver votre cours avec WeCanDoo. 3 participant.es maximum.<br><br>
-              <span>Initiation</span> avec le duo de petits carnets.<br>
-              1h30 / 40€<br><br>
-              <span>Poussée</span> avec la reliure croisée, dos toilé, couverture rigide.<br>
+              Vous pouvez reserver votre cours avec WeCanDoo. 3 participant.es maximum.<br>Tous niveaux.<br><br>
+              <span>Le duo :</span> initiation avec la reliure d'un duo de petits carnets.<br>
+              2h / 45€<br><br>
+              <span>Le grand carnet : </span> reliure croisée, dos toilé et couverture rigide pour un atelier plus poussé.<br>
               3h / 78€<br><br>
-              <span>Traditionnelle</span> avec la reliure à la bradel.<br>
+              <span>Le bradel : </span> Création d'un beau carnet toilé avec une technique traditionnelle, la reliure à la bradel.<br>
               4h / 90€<br><br>
               <a href="https://wecandoo.fr/atelier/paris-laura-duo-carnets" target="_blank" rel="noopener noreferrer">
-              <span>> reservation reliure initiation</span>
+              <span>> reservation duo de carnets</span>
               </a><br>
               <a href="https://wecandoo.fr/atelier/paris-laura-grand-carnet" target="_blank" rel="noopener noreferrer">
-              <span>> reservation reliure poussée</span>
+              <span>> reservation grand carnet</span>
               </a><br>
               <a href="https://wecandoo.fr/atelier/paris-laura-reliure-bradel" target="_blank" rel="noopener noreferrer">
-              <span>> reservation reliure traditionnelle</span>
+              <span>> reservation le bradel</span>
               </a><br>
           </div>
           <img src="~/assets/img/cours/cours-laura-caillaux-stage.jpg" alt="cours reliure atelier caillou feu laura caillaux">
@@ -229,8 +229,6 @@ COURS - WORKSHOP
           }
           & #cours-legende-stage {
             margin-bottom: -53px;
-          }
-          & #cours-legende-workshop {
           }
         }
 

@@ -4,7 +4,7 @@
 tiers lieu geré par l’association Soukmachines<br>
 112 rue Ambroise Croizat<br>
 93200 Saint-Denis<br>
-<a href="https://goo.gl/maps/kGsYQ8FdHB9fbSFq6" target="_blank" rel="noopener">ouvrir dans google Map</a></p>
+<a href="https://goo.gl/maps/kGsYQ8FdHB9fbSFq6" target="_blank" rel="noopener"><span>ouvrir dans google Map</span></a></p>
   </div>
 
 </template>
@@ -18,6 +18,9 @@ tiers lieu geré par l’association Soukmachines<br>
   margin: 80px 0 0 0;
   font-family: $text;
   font-size: 16px;
+  span {
+    text-decoration: underline;
+  }
 }
 
 </style>

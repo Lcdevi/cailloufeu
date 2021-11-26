@@ -8,19 +8,47 @@
             <h1>shop</h1>
           <div class="trait"></div>
         </div>
-        <img src="~/assets/img/shop/silex_calame-shop.jpg" alt="dessin d'un silex au calame">
-        <p>Désolé, les carnets et autres livres sont en train d'être reliés.</p><br>
-        <p>Revenez plus tard ou suivez l'atelier Caillou Feu sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> pour être prévenu.e des prochaines ventes !</p><br>
-        <p>Pour être informé.e de la date de la prochaine vente en ligne et autres joyeusetés, vous pouvez aussi vous inscrire à la newsletter.</p><br><br>
-        <p id="newsletter">Newsletter</p>
-        <form ref="form" class="contact-form" @submit.prevent="sendEmail">
-          <label>adresse email</label>
-          <input class="input" type="email" name="email">
-          <div class="submit">
-            <button type="submit" value="Send">envoyer</button>
+        <img src="~/assets/img/shop/image-shop.jpg" alt="photo de l'atelier en noir et blanc">
+        <div id="shop-news">
+          <div>
+            <p>La boutique en ligne est fermée. Une production de papeterie est actuellement en cours à l'atelier et va être mise en ligne mi décembre 2021.</p><br>
+            <p>Vous pouvez suivre l'atelier sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> pour être prévenu.e des prochaines ventes ou vous inscrire à la newsletter.</p><br><br>
           </div>
-        </form>
-        <p v-if="validate" id="validatemessage">Inscription envoyée, merci !</p>  
+        </div>
+  
+        <div id="formulaire-newsletter-shop">
+          <p id="newsletter">Newsletter</p>
+          <form ref="form" class="contact-form" @submit.prevent="sendEmail">
+            <label>adresse email</label>
+            <input class="input" type="email" name="email">
+            <div class="submit">
+              <button type="submit" value="Send">envoyer</button>
+            </div>
+          </form>
+          <p v-if="validate" id="validatemessage">Inscription envoyée, merci !</p>  
+        </div>
+
+
+        <img src="~/assets/img/shop/image-shop-ateliervoltaire.jpg" alt="boutique atelier voltaire">
+
+        <div id="revendeur">
+          <div>
+            <h3>Vous trouverez mes carnets dans ces boutiques :</h3>
+          </div>
+          <div id="boutiques"><br>
+            <div>
+              <h4>PARIS</h4>
+              <p><a href="https://www.instagram.com/atelier.voltaire.paris/" target="_blank" rel="noopener">Atelier Voltaire</a><br>
+              81 Bd Voltaire, 75011 Paris</p>
+            </div>
+            <br>
+            <div>
+              <h4>TOULOUSE</h4>
+              <p><a href="https://maaadboutique.com/" target="_blank" rel="noopener">MAAAD</a><br>
+              2bis Rue du Puits Vert, 31000 Toulouse</p>
+            </div>          
+          </div>
+        </div>
       </div>
     <Footer />
   </div>
@@ -90,6 +118,19 @@ export default {
       width: 240px;
       margin: 0 0 40px 0;
     }
+    & #shop-news {
+      justify-content: center;
+      display: flex;
+
+      & div {
+        width: 25rem;
+      }
+    }
+
+    & #formulaire-newsletter-shop {
+      margin-bottom: 62px;
+    }
+
     & span {
       text-decoration: underline;
     }
@@ -142,6 +183,14 @@ export default {
           color: rgb(27, 138, 99);
           font-weight: 700;
         }
+
+
+
+    & #revendeur {
+      & a {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
