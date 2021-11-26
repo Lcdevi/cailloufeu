@@ -2,7 +2,7 @@
 <div id="navbar">
   <div id="logo">
     <NuxtLink to="/">
-      <img src="~/assets/img/logo-cailloufeu-silex-calame-blu.JPG" alt="logo caillou feu laura caillaux">
+      <img src="~/assets/img/logo-cailloufeu-silex-calame-blu.jpg" alt="logo caillou feu laura caillaux">
     </NuxtLink>
     <div id="trait"></div>
   </div>
