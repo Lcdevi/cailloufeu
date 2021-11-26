@@ -12,11 +12,11 @@
         <div id="shop-news">
           <div>
             <p>La boutique en ligne est fermée. Une production de papeterie est actuellement en cours à l'atelier et va être mise en ligne mi décembre 2021.</p><br>
-            <p>Vous pouvez suivre l'atelier sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> pour être prévenu.e des prochaines ventes ou vous inscrire à la newsletter.</p><br><br>
+            <p>Vous pouvez suivre l'atelier sur <span><a href="https://www.instagram.com/le.cailloux/" target="_blank" rel="noopener noreferrer">instagram</a></span> pour être prévenu.e des prochaines ventes.</p><br><br>
           </div>
         </div>
   
-        <div id="formulaire-newsletter-shop">
+        <!-- <div id="formulaire-newsletter-shop">
           <p id="newsletter">Newsletter</p>
           <form ref="form" class="contact-form" @submit.prevent="sendEmail">
             <label>adresse email</label>
@@ -26,7 +26,7 @@
             </div>
           </form>
           <p v-if="validate" id="validatemessage">Inscription envoyée, merci !</p>  
-        </div>
+        </div> -->
 
 
         <img src="~/assets/img/shop/image-shop-ateliervoltaire.jpg" alt="boutique atelier voltaire">
@@ -127,17 +127,17 @@ export default {
       }
     }
 
-    & #formulaire-newsletter-shop {
-      margin-bottom: 62px;
-    }
+    // & #formulaire-newsletter-shop {
+    //   margin-bottom: 62px;
+    // }
 
     & span {
       text-decoration: underline;
     }
-    & #newsletter {
-      font-family: $text;
-      font-size: 28px;
-    }
+    // & #newsletter {
+    //   font-family: $text;
+    //   font-size: 28px;
+    // }
     & .contact-form {
           display: flex;
           flex-direction: column;

@@ -27,14 +27,14 @@ EMAIL
 FORMULAIRE
 ************************************************ -->
         <div id="contact-pres">
-          <p>Ou utilisez ce formulaire de contact.<br>
+          <!-- <p>Ou utilisez ce formulaire de contact.<br> -->
 Je me ferais un plaisir de vous répondre au plus vite !</p>
         </div>
-        <contact-form>
-        </contact-form>
+        <!-- <contact-form> -->
+        <!-- </contact-form> -->
       </div>
     </div>
-  <Newsletter />
+  <!-- <Newsletter /> -->
   <Footer />
 </div>
 </template>

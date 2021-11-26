@@ -30,7 +30,7 @@ L’atelier est ouvert sur rdv et des cours pour découvrir ou se perfectionner 
       </div>
       <Adress />
     </div>
-    <Newsletter />
+    <!-- <Newsletter /> -->
     <Footer />
   </div>
 </template>

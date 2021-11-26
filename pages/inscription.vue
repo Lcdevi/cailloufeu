@@ -37,32 +37,32 @@
         </div>
         <Adress />
     </div>
-    <Newsletter />
+    <!-- <Newsletter /> -->
     <Footer />
   </div>
 </template>
 
 <script>
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
-export default {
-  mounted() {
-    console.log(process.env.YOUR_SERVICE_ID)
-  },
-  methods: {
-    sendEmail: (e) => {
-      emailjs.sendForm("service_dapgoeh", "template_isqxedl", e.target, "user_Px6NrRyRJfhGW63Y8PmNy")
-        .then((result) => {
-            console.log('SUCCESS!', result.status, result.text);
-            alert("message envoyé")
-        }, (error) => {
-            console.log('FAILED...', error);
-            alert("ATTENTION votre message n'a pas pu être envoyé")
-        });
-        e.target.reset();
-    }
-  }
-}
+// export default {
+//   mounted() {
+//     console.log(process.env.YOUR_SERVICE_ID)
+//   },
+//   methods: {
+//     sendEmail: (e) => {
+//       emailjs.sendForm("service_dapgoeh", "template_isqxedl", e.target, "user_Px6NrRyRJfhGW63Y8PmNy")
+//         .then((result) => {
+//             console.log('SUCCESS!', result.status, result.text);
+//             alert("message envoyé")
+//         }, (error) => {
+//             console.log('FAILED...', error);
+//             alert("ATTENTION votre message n'a pas pu être envoyé")
+//         });
+//         e.target.reset();
+//     }
+//   }
+// }
 </script>
 
 

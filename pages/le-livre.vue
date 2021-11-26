@@ -25,7 +25,7 @@
         </vignette>
       </div>
     </div>
-  <Newsletter />
+  <!-- <Newsletter /> -->
   <Footer />
 </div>
 </template>

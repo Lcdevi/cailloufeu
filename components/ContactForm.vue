@@ -20,38 +20,38 @@
 </template>
 
 <script>
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
-export default {
-  data() {
-    return {
-      validate: false,
-      unvalidate: false
-    }
-  },
+// export default {
+//   data() {
+//     return {
+//       validate: false,
+//       unvalidate: false
+//     }
+//   },
 
-  mounted() {
-    console.log(process.env.YOUR_SERVICE_ID)
-  },
+//   mounted() {
+//     console.log(process.env.YOUR_SERVICE_ID)
+//   },
 
-  methods: {
-    sendEmail(e) {
-      emailjs.sendForm("service_dapgoeh", "template_6835ge7", this.$refs.form, "user_Px6NrRyRJfhGW63Y8PmNy")
-        .then((result) => {
-            console.log('SUCCESS!', result.text);
-            // alert("message envoyé")
-            this.validate = true;
-        }, (error) => {
-            console.log('FAILED...', error.text);
-            // alert("ATTENTION votre message n'a pas pu être envoyé")
-            this.unvalidate = true;
-        });
-        e.target.reset();
-    }
-  }
+//   methods: {
+//     sendEmail(e) {
+//       emailjs.sendForm("service_dapgoeh", "template_6835ge7", this.$refs.form, "user_Px6NrRyRJfhGW63Y8PmNy")
+//         .then((result) => {
+//             console.log('SUCCESS!', result.text);
+//             // alert("message envoyé")
+//             this.validate = true;
+//         }, (error) => {
+//             console.log('FAILED...', error.text);
+//             // alert("ATTENTION votre message n'a pas pu être envoyé")
+//             this.unvalidate = true;
+//         });
+//         e.target.reset();
+//     }
+//   }
 
 
-}
+// }
 </script>
 
 <style lang="scss" scoped>

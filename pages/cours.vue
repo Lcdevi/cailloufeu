@@ -97,7 +97,7 @@ COURS - WORKSHOP
       </div>
     <Adress />
     </div>
-  <Newsletter />
+  <!-- <Newsletter /> -->
   <Footer />
 </div>
 </template>
