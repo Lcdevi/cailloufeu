@@ -33,11 +33,11 @@ COURS - COURS
               <h2>LES COURS DE RELIURE</h2><br>
               Vous pouvez reserver votre cours avec WeCanDoo. 3 participant.es maximum.<br>Tous niveaux.<br><br>
               <span>Le duo :</span> initiation avec la reliure d'un duo de petits carnets.<br>
-              2h / 45€<br><br>
+              2h / 50€<br><br>
               <span>Le grand carnet : </span> reliure croisée, dos toilé et couverture rigide pour un atelier plus poussé.<br>
               3h / 78€<br><br>
               <span>Le bradel : </span> Création d'un beau carnet toilé avec une technique traditionnelle, la reliure à la bradel.<br>
-              4h / 90€<br><br>
+              4h / 98€<br><br>
               <a href="https://wecandoo.fr/atelier/paris-laura-duo-carnets" target="_blank" rel="noopener noreferrer">
               <span>> reservation duo de carnets</span>
               </a><br>
