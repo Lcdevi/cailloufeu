@@ -1,5 +1,29 @@
 [
     {
+      "id": "11",
+      "vignette": "livre-vanina-vignette",
+      "categorie": "reliure d'art",
+      "auteur": "Vanina Langer",
+      "title": "Le dessin infini",
+      "description": "Edition d'art pour l'artiste Vanina Langer. Un dessin infini sous forme de leporellos.",
+      "pages": "-",
+      "format": "-",
+      "reliure": "8 leporellos toilés protégés dans un étui ou une boite à chasse pour l'édition de luxe",
+      "impression":"jet d'encre",
+      "date": "2022",
+      "exemplaire" : "10",
+      "prix": "-",
+      "alt": "leporellos pour l'artiste Vanina Langer",
+      "photo1": "livre-vanina-01",
+      "photo2": "livre-vanina-02",
+      "photo3": "livre-vanina-03",
+      "photo4": "livre-vanina-04",
+      "photo5": "livre-vanina-05",
+      "photo6": "livre-vanina-06",
+      "photo7": "livre-vanina-07",
+      "photo8": "livre-vanina-08"
+    },
+    {
       "id": "10",
       "vignette": "livre-leporello-vignette",
       "categorie": "reliure d'art",
@@ -240,7 +264,7 @@
       "photo8": "livre-lamant-08"
     },
     {
-      "id": "10",
+      "id": "12",
       "vignette": "livre-zucco-vignette",
       "categorie": "reliure",
       "auteur": "Bernard-Marie Koltès",
