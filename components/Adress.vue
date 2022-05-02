@@ -1,10 +1,9 @@
 <template>
   <div id="adress">
-    <p>L’atelier est situé à l’Orfèvrerie, <br>
-tiers lieu geré par l’association Soukmachines<br>
-112 rue Ambroise Croizat<br>
-93200 Saint-Denis<br>
-<a href="https://goo.gl/maps/kGsYQ8FdHB9fbSFq6" target="_blank" rel="noopener"><span>ouvrir dans google Map</span></a></p>
+    <p>L’atelier est situé à Paris dans le XIXème arrondissement<br>
+70bis rue de Romainville<br>
+75019 Paris<br>
+<a href="https://goo.gl/maps/ng2G5NUxXXTziakv5" target="_blank" rel="noopener"><span>ouvrir dans google Map</span></a></p>
   </div>
 
 </template>

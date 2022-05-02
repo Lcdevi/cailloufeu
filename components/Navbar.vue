@@ -22,11 +22,11 @@
       </div>
       <div id="description">
         <div>
-          <p>Drawing / Publishing / Bookbinding</p>
+          <p>Dessin / Edition / Reliure</p>
         </div>
         <div id="pointilles"></div>
         <div>
-          <p>Dessin / Edition / Reliure</p>
+          <p>Drawing / Publishing / Bookbinding</p>
         </div>
       </div>
       <div id="trait2"></div>
