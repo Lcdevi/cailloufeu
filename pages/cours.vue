@@ -31,7 +31,7 @@ COURS - COURS
         <div class="cours-div">
           <div class="cours-legende" id="cours-legende-wecandoo">
               <h2>LES COURS DE RELIURE</h2><br>
-              Vous pouvez reserver votre cours avec WeCanDoo. 3 participant.es maximum.<br>Tous niveaux.<br><br>
+              Vous pouvez reserver votre cours avec WeCanDoo. 4 participant.es maximum.<br>Tous niveaux.<br><br>
               <span>Le duo :</span> initiation avec la reliure d'un duo de petits carnets.<br>
               2h / 50€<br><br>
               <span>Le grand carnet : </span> reliure croisée, dos toilé et couverture rigide pour un atelier plus poussé.<br>
@@ -65,7 +65,7 @@ COURS - STAGE
                 <li>couture croisée dos toilé</li>
               </ul>
               <br>
-              tout le materiel est fourni<br>
+              materiel est fourni<br>
               2 journées / 16h / 280€<br><br>
             <NuxtLink to="/inscription">
             <span>> formulaire inscription stage</span>

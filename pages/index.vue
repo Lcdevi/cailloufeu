@@ -23,7 +23,7 @@
           </div>
           <div id="text">
             <p>
-              L’atelier <em>Caillou Feu</em> est un atelier de reliure, édition, livre d’artiste et dessin basé à Saint-Denis et ouvert sur rdv.
+              L’atelier <em>Caillou Feu</em> est un atelier de reliure, édition, livre d’artiste et dessin basé à Paris 19 <br> et ouvert sur rdv.
             </p>
           </div>
         </div>
@@ -108,7 +108,7 @@
           display: none;
         }
         & #text {
-          width: 410px;
+          width: 380px;
           font-family: $text;
           font-size: 28px;
           line-height: 42px;
